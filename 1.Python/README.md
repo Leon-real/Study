@@ -4,3 +4,4 @@
 [Jupyter notebook 마크다운 설명 및 단축키](./Jupyter%20마크%20다운%20및%20단축키.ipynb)
 
 ### 파이썬 기초
+[파이썬 기초 문법 및 설명](./1.%20Python%20기초.ipynb)
