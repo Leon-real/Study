@@ -4,8 +4,8 @@
 [Jupyter notebook 마크다운 설명 및 단축키](./files/0.%20Jupyter%20마크%20다운%20및%20단축키.ipynb)
 
 ### 파이썬 기초
-[파이썬 기초 문법 및 설명](./Python%20기초%20및%20설명.ipynb)
-    1. 파이썬의 기초  <br>
+[파이썬 기초 문법 및 설명](./Python%20기초%20및%20설명.ipynb)  
+    1. 파이썬의 기초  
         1. [기본 자료형](./files/1-1._Python의_기초_기본_자료형.ipynb)  
         2. [연산자](./files/1-2._Python의_기초_연산자.ipynb)  
         3. [제어문](./files/1-3._Python의_제어문.ipynb)  
