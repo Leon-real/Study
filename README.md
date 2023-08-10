@@ -2,5 +2,9 @@
 Study computer things
 
 
+### Python 공부
 [0. Git : 깃 설명 및 명령어](0.Git/)  
-[1. Python : Python 기초 및 라이브러리](1.Python/readme.md)
+[1. Python : Python 기초 및 라이브러리](1.Python/README.md)
+
+### 코딩 문제 풀이
+[프로그래머스 코딩 문제 풀이](./programmers/)
