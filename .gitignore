@@ -1,0 +1,4 @@
+# 파일 업로드 제외 파일들 
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
