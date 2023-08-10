@@ -14,5 +14,5 @@
   2. [패키지](./files/2.패키지.ipynb)  
     1. 파이썬 클래스  
     2. 모듈가 패키지  
-  3. [Numpy 넘파이](./files/3.Numpy.ipynb)
+  3. [Numpy 넘파이](./files/3.Numpy.ipynb)  
   4. [Pandas 판다스](./files/4.Pandas.ipynb)
