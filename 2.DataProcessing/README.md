@@ -1,4 +1,9 @@
 # Data Processing
+##### 기본 사용되는 라이브리러
+- matplotlib  
+- seaborn  
+- pandas  
+- numpy  
 
 ### 데이터 처리
 1. [데이터처리_1](./jupyterFiles/데이터처리_1.ipynb)  
