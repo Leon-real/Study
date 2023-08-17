@@ -5,7 +5,7 @@
 - pandas  
 - numpy  
 - scipy.stats
-
+test
 ### 데이터 분석 기초
 1. [이변량 분석 숫자 vs 숫자](./이변량_분석_숫자_vs_숫자.ipynb)  
 2. [이변량 분석 범주 vs 숫자](./이변량_분석_범주_vs_숫자.ipynb)  
