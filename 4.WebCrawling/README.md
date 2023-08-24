@@ -4,9 +4,11 @@
 - 또한 이를 통하여, 데이터를 분석하고 레포팅하는 방법   
 
 ##### 예제 파일
-[1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./1.reuqests_naver_stock.ipynb)  
+[1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./1.reuqests_and_analysis.ipynb)  
     ㄴ 코스피, 코스닥, 환율 데이터 수집 및 분석  
-
+[2. response 에러 처리](./2.response_error_handling.ipynb)  
+    ㄴ requests를 하였을 때, response에 에러가 날 경우 처리
+    
 ### 웹페이지의 종류
 
 - 정적인 페이지 : 웹 브라우저에 화면이 한번 뜨면 이벤트에 의한 화면의 변경이 없는 페이지  
