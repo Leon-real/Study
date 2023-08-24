@@ -7,7 +7,7 @@
 [1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./1.reuqests_and_analysis.ipynb)  
   ㄴ 코스피, 코스닥, 환율 데이터 수집 및 분석  
 [2. response 에러 처리](./2.response_error_handling.ipynb)  
-  ㄴ requests를 하였을 때, response에 에러가 날 경우 처리
+  ㄴ requests를 하였을 때, response에 에러가 날 경우 처리  
 [3. Using Api, api 사용법](./3.UsingApi.ipynb)  
   ㄴ 네이버 파파고 api, 검색어 트렌드 api 활용하기
 
