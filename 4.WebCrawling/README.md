@@ -16,4 +16,10 @@
     - 브라우저를 직접 열어서 데이터를 받는 방법  
 
 - 크롤링 방법에 따라 속도는  
-requests json > requests html > selenium 순이다.(왼쪽일수록 빠른 속도)
+requests json > requests html > selenium 순이다.(왼쪽일수록 빠른 속도)  
+  
+## 데이터 수집 절차
+
+1. 웹 서비스 분석 : url
+2. 서버에 데이터 요청 : request(url) > response : join(str)
+3. 서버에서 받은 데이터 파싱(데이터 형태를 변경) : json(str) > list,dict > DataFrame
