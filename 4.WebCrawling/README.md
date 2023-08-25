@@ -16,7 +16,7 @@
   ㄴ 직방 사이트의 부동산 매물 데이터 크롤링 및 모듈화하기  
 [5. Module Test 모듈 테스트](./jupyterfile/5.module.ipynb)  
   ㄴ 4번에서 만든 모듈 사용해보기  
-[6. 기타 여러 프로젝트](./jupyterfile/7.Several_Project.ipynb)  
+[6. 기타 여러 프로젝트](./jupyterfile/6.Several_Project.ipynb)  
   ㄴ 네이버 연관검색어 추출 및 저장하기  
   ㄴ   
 ### 웹페이지의 종류
