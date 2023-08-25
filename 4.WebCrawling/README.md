@@ -4,7 +4,8 @@
 - 또한 이를 통하여, 데이터를 분석하고 레포팅하는 방법   
 
 ##### 예제 파일
-[0. HTML 기초 및 Css Selector](./jupyterfile/0.Html_CssSelector_Basic.md)
+[0. HTML 기초 및 Css Selector](./jupyterfile/0.Html_CssSelector_Basic.md)  
+  ㄴ HTML 구성요소 및 구조와 Css Selector 기초 설명  
 [1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./jupyterfile/1.reuqests_and_analysis.ipynb)  
   ㄴ 코스피, 코스닥, 환율 데이터 수집 및 분석  
 [2. response 에러 처리](./jupyterfile/2.response_error_handling.ipynb)  
