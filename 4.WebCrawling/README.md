@@ -36,7 +36,3 @@ requests json > requests html > selenium 순이다.(왼쪽일수록 빠른 속�
 1. 웹 서비스 분석 : url
 2. 서버에 데이터 요청 : request(url) > response : join(str)
 3. 서버에서 받은 데이터 파싱(데이터 형태를 변경) : json(str) > list,dict > DataFrame
-  
-## Response Error 처리하기
-1. user-agent 수정하기  
-2. referer 수정하기  
