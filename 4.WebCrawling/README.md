@@ -4,15 +4,15 @@
 - 또한 이를 통하여, 데이터를 분석하고 레포팅하는 방법   
 
 ##### 예제 파일
-[1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./1.reuqests_and_analysis.ipynb)  
+[1. 코스피, 코스닥, 환율 데이터 수집 및 분석](./jupyterfile/1.reuqests_and_analysis.ipynb)  
   ㄴ 코스피, 코스닥, 환율 데이터 수집 및 분석  
-[2. response 에러 처리](./2.response_error_handling.ipynb)  
+[2. response 에러 처리](./jupyterfile/2.response_error_handling.ipynb)  
   ㄴ requests를 하였을 때, response에 에러가 날 경우 처리  
-[3. Using Api, api 사용법](./3.UsingApi.ipynb)  
+[3. Using Api, api 사용법](./jupyterfile/3.UsingApi.ipynb)  
   ㄴ 네이버 파파고 api, 검색어 트렌드 api 활용하기  
-[4. Final Pracice 최종 연습](./4.Final_Crawling.ipynb)  
+[4. Final Pracice 최종 연습](./jupyterfile/4.Final_Crawling.ipynb)  
   ㄴ 직방 사이트의 부동산 매물 데이터 크롤링 및 모듈화하기  
-[5. Module Test 모듈 테스트](./5.module.ipynb)  
+[5. Module Test 모듈 테스트](./jupyterfile/5.module.ipynb)  
   ㄴ 4번에서 만든 모듈 사용해보기  
 
 ### 웹페이지의 종류
