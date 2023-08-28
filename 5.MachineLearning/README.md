@@ -8,7 +8,7 @@
 - [5.효율적인 성능 평가 방법](./5.efficient_evaluate_performance.md)
 - [6.하이퍼파리미터 튜닝](./6.HyperParameter.md)
 - [7.앙상블 알고리즘 등](./7.Ensemble.md)
-
+- [8. 알고리즘별 코드 작성 및 테스트](./JupyterFiles/)
 ⇒ 이를 통 최소한 머신러닝 모델링 코드를 작성할 수 있다.
 
 ## 사용 라이브러리 간단 요약
