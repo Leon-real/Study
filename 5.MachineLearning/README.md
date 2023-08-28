@@ -1,14 +1,15 @@
 # 목차
 
-- [0.머신러닝 개념과 관련 용어](./0.what_is_ML.md)
-- [1.회귀와 분류 구분](./1.classification_and_regression.md)
-- [2.모델링 코드 작성 방법](./2.how_to_code_modeling.md)
-- [3.모델 성능 평가 방법](./3.how_to_evaluate_model.md)
-- [4.기본 알고리즘 원리](./4.algorithm_basic.md)
-- [5.효율적인 성능 평가 방법](./5.efficient_evaluate_performance.md)
-- [6.하이퍼파리미터 튜닝](./6.HyperParameter.md)
-- [7.앙상블 알고리즘 등](./7.Ensemble.md)
-- [8. 알고리즘별 코드 작성 및 테스트](./JupyterFiles/)
+- [0.머신러닝 개념과 관련 용어](./0.what_is_ML.md)  
+- [1.회귀와 분류 구분](./1.classification_and_regression.md)  
+- [2.모델링 코드 작성 방법](./2.how_to_code_modeling.md)  
+- [3.모델 성능 평가 방법](./3.how_to_evaluate_model.md)  
+- [4.기본 알고리즘 원리](./4.algorithm_basic.md)  
+- [5.효율적인 성능 평가 방법](./5.efficient_evaluate_performance.md)  
+- [6.하이퍼파리미터 튜닝](./6.HyperParameter.md)  
+- [7.앙상블 알고리즘 등](./7.Ensemble.md)  
+- [8. 알고리즘별 코드 작성 및 테스트](./JupyterFiles/)  
+  
 ⇒ 이를 통 최소한 머신러닝 모델링 코드를 작성할 수 있다.
 
 ## 사용 라이브러리 간단 요약
