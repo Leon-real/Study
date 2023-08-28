@@ -23,6 +23,7 @@
 2. 회귀문제
     
     ```python
+        # 학습 알고리즘
         from sklearn.linear_model import LinearRegression
         from sklearn.neighbors import KNeighborsRegressor
         from sklearn.tree import DecisionTreeRegressor
@@ -30,6 +31,7 @@
         from xgboost import XGBRegressor
         from lightgbm import LGBMRegressor
         
+        # 평가 알고리즘
         from sklearn.metrics import mean_absolute_error
         from sklearn.metrics import mean_squared_error
         from sklearn.metrics import mean_absolute_percentage_error
@@ -39,6 +41,7 @@
 3. 분류문제
     
     ```python
+        # 학습 알고리즘
         from sklearn.neighbors import KNeighborsClassifier
         from sklearn.tree import DecisionTreeClassifier
         from sklearn.linear_model import LogisticRegression
@@ -46,6 +49,7 @@
         from xgboost import XGBClassifier
         from lightgbm import LGBMClassifier
         
+        # 평가 알고리즘
         from sklearn.metrics import accuracy_score
         from sklearn.metrics import recall_score
         from sklearn.metrics import precision_score
