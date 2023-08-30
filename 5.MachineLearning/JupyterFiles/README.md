@@ -9,11 +9,12 @@
 - 평균으로 돌아가려는 경향이 있다는 가설을 바탕으로 분석하는 방법이다.  
 - 최선의 회귀 모델은 전체 데이터의 **오차 합이 최소**가 되는 모델이다.
 ```python
+# 단순 회귀의 회귀 계수
 print(model.coef_) # 회귀계수(=가중치) 확인
 print(model.intercept_) # 편향 수치 확인
 ```
 ```python
-# 회귀계수 확인
+# 다중 회귀의 회귀 계수
 print(list(x_train)) # 독립변수 이름 확인
 print(model.coef_) # 회귀계수 확인
 print(model.intercept_) # 편향 확인
