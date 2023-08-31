@@ -5,6 +5,7 @@
     - [[기초] Linear Regression 선형회귀 - 회귀계수 확인하기](./Simple_Linear_Regression.ipynb)  
     - [[기초] KNN - K-최근접 이웃(회귀)](./Simple_KNN.ipynb)  
     - [[기초] Decision Tree 결정 나무(범주)](./Simple_DecisionTree.ipynb)  
+    - [[기초] Logistic Regression 로지스틱 회귀(범주)](./Simple%20Logistic%20Regression.ipynb)  
 - 간단한 예제
     - [Linear Regression 선형회귀 - 오존농도 예측](./LinearRegression_1(air_data).ipynb)  
     - [Linear Regression 선형회귀 - 보스턴 집값 예측](./LinearRegression_2(boston_data).ipynb)  
