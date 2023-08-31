@@ -10,6 +10,7 @@
     - [Linear Regression 선형회귀 - 보스턴 집값 예측](./LinearRegression_2(boston_data).ipynb)  
     - [Linear Regression 선형회귀 - 자동차 시트 판매량 예측](./LinearRegression_3(CarSeats).ipynb)  
     - [KNN k-최근접 이웃 알고리즘 - 대학 합격률 예측](./KNN_1(college_pass).ipynb)  
+    - [Decision Tree 결정나무 - 모바일 이탈율 예측](./DecisionTree.ipynb)  
   
 ## Linear Regression 선형 회귀
 - 회귀만 사용 가능
