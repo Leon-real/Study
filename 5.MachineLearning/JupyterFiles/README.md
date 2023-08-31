@@ -16,3 +16,6 @@
     - [Decision Tree 결정나무 - 모바일 이탈율 예측](./4.basic_algorithms/DecisionTree.ipynb)  
     - [Logistic Regression 로지스틱 회귀 - 모바일 이탈율 예측](./4.basic_algorithms/Logistic_Regression.ipynb)  
 
+#### [5. 효율적인 성능 평가 방법] 부분
+- [설명 보기](../5.efficient_evaluate_performance.md)  
+- 기초
