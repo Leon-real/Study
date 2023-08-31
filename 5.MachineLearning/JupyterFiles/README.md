@@ -19,3 +19,5 @@
 #### [5. 효율적인 성능 평가 방법] 부분
 - [설명 보기](../5.efficient_evaluate_performance.md)  
 - 기초
+    -[K-Fold Cross Validation K-분할 교차 검증](./5.efficient_evaluate_performance_files/K-Fold_Cross_validation.ipynb)  
+    
