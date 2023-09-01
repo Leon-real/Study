@@ -28,3 +28,7 @@
     - [Random Search 랜덤 서치 - Decision Tree(Regression)](../JupyterFiles/6.hyper_parameter_files/RandomSearch(DecisionTree_Regression).ipynb)  
     - [Grid Search 그리드 서치 - Decision Tree(Regression)](./6.hyper_parameter_files/GridSearch(DecisionTree_Regression).ipynb)  
     - [Grid Search 그리드 서치 - Decision Tree(Classification)](./6.hyper_parameter_files/GridSearch(DecisionTree_Regression).ipynb)  
+- 참고
+    - [Class Imbalance 클래스 불균형](./6.hyper_parameter_files/ClassImbalance.ipynb)
+- 간단한 예제
+    - [의료비 예측 및 평가하기](./6.hyper_parameter_files/Medical_Charges.ipynb)  
