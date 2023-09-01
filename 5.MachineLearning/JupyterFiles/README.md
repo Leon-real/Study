@@ -38,5 +38,6 @@
 - 기초  
     - [Ensemble 앙상블(분류)](./7.ensemble_files/Ensemble_basic(Classification).ipynb)  
 - 종합 파일
-    - [Ensemble 종합(분류) - 모바일 이탈률 예측](7.ensemble_files/Ensemble(Classification).ipynb)  
+    - [Ensemble 종합(분류) - 모바일 이탈률 예측](7.ensemble_files/Ensemble(Classification_mobile).ipynb)  
+    - [](./7.ensemble_files/Ensemble(Classification_airline%20satisfaction).ipynb)  
     
