@@ -37,3 +37,6 @@
 - [설명 보기](../7.Ensemble.md)  
 - 기초  
     - [Ensemble 앙상블(분류)](./7.ensemble_files/Ensemble_basic(Classification).ipynb)  
+- 종합 파일
+    - [Ensemble 종합(분류) - 모바일 이탈률 예측](7.ensemble_files/Ensemble(Classification).ipynb)  
+    
