@@ -22,7 +22,7 @@
     - [K-Fold Cross Validation K-분할 교차 검증 (분류)](./5.efficient_evaluate_performance_files/K-Fold_Cross_validation(Classification).ipynb)  
     - [K-Fold Cross Validation K-분할 교차 검증 (회귀)](./5.efficient_evaluate_performance_files/K-Fold_Cross_validation(Regrassion).ipynb)  
   
-#### [5. 하이퍼파리미터 튜닝] 부분
+#### [6. 하이퍼파리미터 튜닝] 부분
 - [설명 보기](../6.HyperParameter.md)  
 - 기초  
     - [Random Search 랜덤 서치 - Decision Tree(Regression)](../JupyterFiles/6.hyper_parameter_files/RandomSearch(DecisionTree_Regression).ipynb)  
@@ -32,3 +32,7 @@
     - [Class Imbalance 클래스 불균형](./6.hyper_parameter_files/ClassImbalance.ipynb)
 - 간단한 예제
     - [의료비 예측 및 평가하기](./6.hyper_parameter_files/Medical_Charges.ipynb)  
+  
+#### [6. 앙상블] 부분
+- [설명 보기](../7.Ensemble.md)  
+- 기초  
