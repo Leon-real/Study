@@ -15,9 +15,14 @@
     - [KNN k-최근접 이웃 알고리즘 - 대학 합격률 예측](./4.basic_algorithms/KNN_1(college_pass).ipynb)  
     - [Decision Tree 결정나무 - 모바일 이탈율 예측](./4.basic_algorithms/DecisionTree.ipynb)  
     - [Logistic Regression 로지스틱 회귀 - 모바일 이탈율 예측](./4.basic_algorithms/Logistic_Regression.ipynb)  
-
+  
 #### [5. 효율적인 성능 평가 방법] 부분
 - [설명 보기](../5.efficient_evaluate_performance.md)  
 - 기초  
     - [K-Fold Cross Validation K-분할 교차 검증 (분류)](./5.efficient_evaluate_performance_files/K-Fold_Cross_validation(Classification).ipynb)  
     - [K-Fold Cross Validation K-분할 교차 검증 (회귀)](./5.efficient_evaluate_performance_files/K-Fold_Cross_validation(Regrassion).ipynb)  
+  
+#### [5. 하이퍼파리미터 튜닝] 부분
+- [설명 보기](../6.HyperParameter.md)  
+- 기초  
+    - [Random Search 랜덤 서치](../JupyterFiles/6.hyper_parameter_files/RandomSearch_basic.ipynb)
