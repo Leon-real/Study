@@ -33,6 +33,6 @@
 - 간단한 예제
     - [의료비 예측 및 평가하기](./6.hyper_parameter_files/Medical_Charges.ipynb)  
   
-#### [6. 앙상블] 부분
+#### [7. 앙상블] 부분
 - [설명 보기](../7.Ensemble.md)  
 - 기초  
