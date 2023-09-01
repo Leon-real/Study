@@ -25,5 +25,5 @@
 #### [5. 하이퍼파리미터 튜닝] 부분
 - [설명 보기](../6.HyperParameter.md)  
 - 기초  
-    - [Random Search 랜덤 서치](../JupyterFiles/6.hyper_parameter_files/RandomSearch_basic.ipynb)  
-    - [Grid Search 그리드 서치](./6.hyper_parameter_files/GridSearch_basic.ipynb)  
+    - [Random Search 랜덤 서치 - Decision Tree](../JupyterFiles/6.hyper_parameter_files/RandomSearch(DecisionTree).ipynb)  
+    - [Grid Search 그리드 서치 - Decision Tree](./6.hyper_parameter_files/GridSearch(DecisionTree).ipynb)  
