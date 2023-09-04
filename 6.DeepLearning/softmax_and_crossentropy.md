@@ -1,4 +1,4 @@
-# softmax와 crossentropy
+# softmax와 crossentropy  
 
 ## softmax 함수
 
