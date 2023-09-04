@@ -1,4 +1,23 @@
 # Deep Learning 딥러닝  
+딥러닝은 집합으로 생각하자면, 머신러닝 안에 딥러닝이 있다.  
+그렇기에 머신러닝과 비슷한 구조를 가지고 있다.  
+
+0. 라이브러리 불러오기  
+```python
+import tensorflow as tf
+```
+1. 모델 구조 생성  
+```python
+X = tf.keras.layers.Input(shape=[1])
+Y = tf.keras.layers.Denso(1)(X)
+model = tf.keras.models.Model(X,Y)
+model.complie(loss='mse')
+```
+2. 모델 학습  
+```python
+model.fit(x_train, y_train, epochs=1000, verbos=0)
+model.fit(x_train, y_train, epochs=10)
+```
 
 ### 파일 목록  
 - 기초
