@@ -9,7 +9,7 @@ import tensorflow as tf
 1. 모델 구조 생성  
 ```python
 X = tf.keras.layers.Input(shape=[1])
-Y = tf.keras.layers.Denso(1)(X)
+Y = tf.keras.layers.Dense(1)(X)
 model = tf.keras.models.Model(X,Y)
 model.complie(loss='mse')
 ```
