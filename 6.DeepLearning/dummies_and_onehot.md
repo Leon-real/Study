@@ -9,3 +9,17 @@ one-hot 인코딩의 경우 변수의 개수가 4개일 때, 원핫인코딩을 
 즉, 간단하게 이해하자면,  
 **독립 변수는 dummy,  
 종속 변수는 one-hot**  
+
+### 가변수화 사용법
+```python
+import pandas as pd
+df = pd.DataFrame({"test":["a","b","c"]})
+pd.get_dummies(df['test'],drop_first=True)
+
+```
+### 원핫 인코딩 사용법
+```python
+import pandas as pd
+df = pd.DataFrame({"test":["a","b","c"]})
+pd.get_dummies(df['test'])
+```
