@@ -10,3 +10,8 @@
     - 특징맵을 다운 샘플링하여 특징 맵의 크기를 줄이는 풀링연산을 말한다. 이때, 커널과 겹치는 영역 안에서 최대값을 추출하는 방식으로 다운 샘플링을 한다.  
 - Average pooling  
     - 특징맵을 다운 샘플링하여 특징 맵의 크기를 줄이는 풀링연산을 말한다. 이때, 커널과 겹치는 영역 안에서 평균값을 추출하는 방식으로 다운 샘플링을 한다.  
+
+### 파일 목록
+- [Flatten](../jupyter/flatten_convolution_pooling/MNIST_Flatten.ipynb)  
+- [Convolution](../jupyter/flatten_convolution_pooling/MNIST_Convolution.ipynb)  
+- [Pooling](../jupyter/flatten_convolution_pooling/MNIST_MaxPool.ipynb)  

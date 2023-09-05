@@ -7,5 +7,5 @@
 - [가변수화와 one-hot인코딩의 차이](./mdFiles/dummies_and_onehot.md)  
 - [softmax와 crossentropy](./mdFiles/softmax_and_crossentropy.md)  
 - [Activation 활성화 함수](./mdFiles/activation.md)  
-- [Flatten, Convolution, Pooling](./mdFiles/softmax_and_crossentropy.md)  
+- [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
   
