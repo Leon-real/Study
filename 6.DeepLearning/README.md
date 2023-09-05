@@ -3,7 +3,9 @@
 그렇기에 머신러닝과 비슷한 구조를 가지고 있다.  
 
 ### 목차
-- [기본 Basic](./basic.md)  
-- [가변수화와 one-hot인코딩의 차이](./dummies_and_onehot.md)  
-- [softmax와 crossentropy](./softmax_and_crossentropy.md)  
-- [Activation 활성화 함수](./activation.md)  
+- [기본 Basic](./mdFiles/basic.md)  
+- [가변수화와 one-hot인코딩의 차이](./mdFiles/dummies_and_onehot.md)  
+- [softmax와 crossentropy](./mdFiles/softmax_and_crossentropy.md)  
+- [Activation 활성화 함수](./mdFiles/activation.md)  
+- [Flatten, Convolution, Pooling](./mdFiles/softmax_and_crossentropy.md)  
+  
