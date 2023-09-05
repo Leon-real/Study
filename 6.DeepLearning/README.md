@@ -8,4 +8,4 @@
 - [softmax와 crossentropy](./mdFiles/softmax_and_crossentropy.md)  
 - [Activation 활성화 함수](./mdFiles/activation.md)  
 - [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
-  
+- [Optimizer 옵티마이저](./mdFiles/optimizer.md)  
