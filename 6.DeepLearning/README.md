@@ -9,9 +9,9 @@
     - loss function (로스 펑션)
     - Optimizer(옵티마이저)
     - 오버피팅, 언더피팅
-2. Image Classification(이미지 분류)
-3. Image Segmentation(이미지 분할)
-4. Object detection(객체 검출)
+2. [Image Classification 모델 종류(이미지 분류)](./mdFiles/2.image_classification.md)
+3. [Image Segmentation 모델 종류(이미지 분할)](./mdFiles/3.image_segmentation.md)
+4. Object detection 모델 종류(객체 검출)
 5. Image Captioning(이미지 캡셔닝)
 6. Visual Embedding(비주얼 임베딩)
 7. Generative model(생성 모델)  
