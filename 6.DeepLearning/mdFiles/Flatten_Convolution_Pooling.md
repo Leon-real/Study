@@ -1,6 +1,13 @@
 ## Flatten  
 - 입력 데이터를 1차원으로 평탄화(faltten)하는 것이다.  
 - 2D 혹은 3D의 특징 맵(feature map)을 1D 벡터로 변환하여, 이후의 레이어에서 처리하기 쉽게 만들어주는 역할을 한다.  
+```python
+# 모델 준비
+X = tf.keras.Input(shape=[28 * 28])
+H = tf.keras.layers.Flatten()(X)
+H = tf.keras.layers.Dense(84, activation="swish")(H)
+Y = tf.keras.layers.Dense(10, activation="softmax")(H)
+```
 ## Convolution(합성곱)  
 - 커널(kernel)또는 필터(filter)라는 $n * m$크기의 행렬로 $높이(height) * 너비(width)$ 크기의 이미지를 처음부터 끝까지 겹치며 훑으면서 $n * m$크기의 겹쳐지는 부분의 각 이미지와 커널의 원소의 값을 곱해서 모두 더한 값을 출력하는 것을 말한다.(이때 이미지의 가장 왼쪽 위부터 가장 오른쪽 아래까지 순차적으로 훑는다.)  
 ## Pooling  
