@@ -23,3 +23,4 @@
 
 ### 딥러닝 활용 파일
 - [transformer 라이브러리 활용](./jupyter/Trasformers_library.ipynb)  
+- [gradio 라이브러리 활용](./jupyter/Gradio_Chatbot.ipynb)  
