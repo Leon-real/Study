@@ -1,5 +1,6 @@
 # 간단한 딥러닝 라이브러리
-
+## 파일
+- [transformers](../jupyter/pipeline.ipynb)
 ## 필요 라이브러리
 - transformer
     - 자연어처리
