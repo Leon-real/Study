@@ -9,3 +9,17 @@
 - [Activation 활성화 함수](./mdFiles/activation.md)  
 - [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
 - [Optimizer 옵티마이저](./mdFiles/optimizer.md)  
+
+(수정 부분)
+### 목차  
+1. [딥러닝 기초](./mdFiles/1.basic_deeplearning.md)
+    - Activation function (활성화 함수)
+    - loss function (로스 펑션)
+    - Optimizer(옵티마이저)
+    - 오버피팅, 언더피팅
+2. Image Classification(이미지 분류)
+3. Image Segmentation(이미지 분할)
+4. Object detection(객체 검출)
+5. Image Captioning(이미지 캡셔닝)
+6. Visual Embedding(비주얼 임베딩)
+7. Generative model(생성 모델)
