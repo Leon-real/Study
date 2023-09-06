@@ -7,8 +7,11 @@
     - 기본 구조
     - Activation function (활성화 함수)
     - loss function (로스 펑션)
-    - Optimizer(옵티마이저)
-    - 오버피팅, 언더피팅 
+    - Optimizer(옵티마이저) 
+    - 오버피팅, 언더피팅  
+    - 학습 history 시각화  
+    - 모델 저장 및 로드하기  
+    - 문자열 입력 부분은 모두 함수로 대체가 가능  
   
 ### 기타 참고
 - [가변수화와 one-hot인코딩의 차이](./mdFiles/dummies_and_onehot.md)  
