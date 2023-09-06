@@ -4,6 +4,7 @@
    
 ### 목차  
 1. [딥러닝 기초](./mdFiles/1.basic_deeplearning.md)
+    - 기본 구조
     - Activation function (활성화 함수)
     - loss function (로스 펑션)
     - Optimizer(옵티마이저)
