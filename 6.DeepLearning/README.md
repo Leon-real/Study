@@ -2,6 +2,8 @@
 딥러닝은 집합으로 생각하자면, 머신러닝 안에 딥러닝이 있다.  
 그렇기에 머신러닝과 비슷한 구조를 가지고 있다.  
    
+##### 참고 사이트
+[AI데이터셋 및 모델모음 : Hugging Face](https://huggingface.co/)  
 ### 목차  
 1. [딥러닝 기초](./mdFiles/1.basic_deeplearning.md)
     - 기본 구조
