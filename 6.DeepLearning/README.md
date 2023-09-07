@@ -31,4 +31,5 @@
 
 ### 딥러닝 활용 파일
 - [간단한 딥러닝 라이브러리](./mdFiles/deeplearning_app.md)
-- [gradio 라이브러리 활용](./jupyter/Gradio_Chatbot.ipynb)  
+- [pipeline 활용](./jupyter/pipeline.ipynb)  
+- [gradio 라이브러리 활용](./jupyter/Gradio.ipynb)   
