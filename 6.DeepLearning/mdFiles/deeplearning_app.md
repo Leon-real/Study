@@ -13,7 +13,7 @@
 pip install transformers
 # 데이터셋
 pip install datasets
-# 텐서플로우
+# 연산을 빠르게 해주는 라이브러리
 pip install xformers 
 ```
 ![파이프라인](../img/pipeline.png)
