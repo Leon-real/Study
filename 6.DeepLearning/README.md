@@ -15,12 +15,13 @@
     - 모델 저장 및 로드하기  
     - 문자열 입력 부분은 모두 함수로 대체가 가능  
     - Skip Connection (스킵 커넥션)  
-2. [딥러닝 임베딩](./mdFiles/embeding.md)  
+
    
 ### 기타 참고
 - [가변수화와 one-hot인코딩의 차이](./mdFiles/dummies_and_onehot.md)  
 - [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
 - [모델 준비 클래스화](./jupyter/class_model.ipynb)  
+- [딥러닝 임베딩](./mdFiles/embeding.md)  
   
 ### 딥러닝 모델 종류 및 설명
 1. [Image Classification 모델 종류(이미지 분류)](./mdFiles/2.image_classification.md)
