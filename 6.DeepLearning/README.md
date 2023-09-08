@@ -15,7 +15,8 @@
     - 모델 저장 및 로드하기  
     - 문자열 입력 부분은 모두 함수로 대체가 가능  
     - Skip Connection (스킵 커넥션)  
-  
+2. [딥러닝 임베딩](./mdFiles/embeding.md)  
+   
 ### 기타 참고
 - [가변수화와 one-hot인코딩의 차이](./mdFiles/dummies_and_onehot.md)  
 - [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
