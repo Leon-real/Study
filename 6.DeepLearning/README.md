@@ -22,6 +22,7 @@
 - [Flatten, Convolution, Pooling](./mdFiles/Flatten_Convolution_Pooling.md)  
 - [모델 준비 클래스화](./jupyter/class_model.ipynb)  
 - [딥러닝 임베딩](./mdFiles/embeding.md)  
+- [Vector DB](./jupyter/VectorDB.ipynb)  
   
 ### 딥러닝 모델 종류 및 설명
 1. [Image Classification 모델 종류(이미지 분류)](./mdFiles/2.image_classification.md)
