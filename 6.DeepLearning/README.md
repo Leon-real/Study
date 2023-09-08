@@ -33,3 +33,5 @@
 - [간단한 딥러닝 라이브러리](./mdFiles/deeplearning_app.md)
 - [pipeline 활용](./jupyter/pipeline.ipynb)  
 - [gradio 라이브러리 활용](./jupyter/Gradio.ipynb)   
+- [OpenAI 활용](./jupyter/openai.ipynb)  
+  
