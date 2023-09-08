@@ -34,4 +34,4 @@
 - [pipeline 활용](./jupyter/pipeline.ipynb)  
 - [gradio 라이브러리 활용](./jupyter/Gradio.ipynb)   
 - [OpenAI 활용](./jupyter/openai.ipynb)  
-  
+- [Tokenize 토큰화](./jupyter/tokenize.ipynb)  
