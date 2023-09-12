@@ -16,7 +16,7 @@
 - [Mini Project2](./JupyterFiles/project2/)  
   
 ## 사용 라이브러리 간단 요약
-
+![이미지](./library_img.png)  
 1. 분리하기
     
     ```python
