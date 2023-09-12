@@ -1,5 +1,6 @@
 # 장애인 이동권 개선을 위한 장애인 콜택시 대기시간 예측
-- [Data Processing](./mini_project.ipynb)  
+- [Data Processing](./mini_project_data_processing.ipynb)  
+- [Data Analysis](./mini_project_data_analysis.ipynb)  
 ## 주제  
 - 머신러닝을 이용한, 장애인 이동권 개선을 위한 쟁이인 콜택시 대기시간 예측하기  
 
