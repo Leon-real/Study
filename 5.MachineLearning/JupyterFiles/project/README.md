@@ -1,8 +1,8 @@
-# span style="color:red">[프로젝트 안내]</span
+# [프로젝트 안내]
 * 미션: 미세먼지 농도를 예측하는 머신러닝 모델을 만들기
 ## 파일
 [미세먼지 농도 예측하기(머신러닝)](./mini_project.ipynb)  
-## span style="color:red">[데이터 설명]</span>
+## [데이터 설명]
 
 * 학습 데이터  
     * air_2021.csv : 2021년 미세먼지 데이터  
