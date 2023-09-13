@@ -12,7 +12,7 @@
   
 ⇒ 이를 통 최소한 머신러닝 모델링 코드를 작성할 수 있다.
 ### 미니 프로젝트
-- [Mini Project](./JupyterFiles/project/mini_project.ipynb)  
+- [Mini Project](./JupyterFiles/project/)  
 - [Mini Project2](./JupyterFiles/project2/)  
   
 ## 사용 라이브러리 간단 요약
