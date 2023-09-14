@@ -4,7 +4,8 @@
 - [notMNIST Small](./jupyter_file/not_MNIST_small.ipynb)  
     - 데이터 용량이 크기 때문에, 따로 데이터를 다운 받아줘야함  
 - [CNN MNIST](./jupyter_file/CNN_MNIST.ipynb)  
-
+- [CNN Fashion MNIST](./jupyter_file/CNN_MNIST_2.ipynb)    
+  
 ## CNN
 ### CNN 이란?
 이미지에 특화된 신경망 구조이다.  
