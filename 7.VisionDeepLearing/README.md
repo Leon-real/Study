@@ -3,3 +3,4 @@
 ### 파일 목록
 - [notMNIST Small](./jupyter_file/not_MNIST_small.ipynb)  
 
+수정중
