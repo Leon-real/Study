@@ -1,5 +1,5 @@
 # Computer Vision
 
 ### 파일 목록
-- [notMNIST Smalii](./jupyter_file/not_MNIST_small.ipynb)  
+- [notMNIST Small](./jupyter_file/not_MNIST_small.ipynb)  
 
