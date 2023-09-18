@@ -3,6 +3,8 @@
 ### 파일 목록
 - [notMNIST Small](./jupyter_file/not_MNIST_small.ipynb)  
     - 데이터 용량이 크기 때문에, 따로 데이터를 다운 받아줘야함  
+- [notMNIST Small 2(CNN 사용)](./jupyter_file/not_MNIST_small_2.ipynb)  
+    - 데이터 용량이 크기 때문에, 따로 데이터를 다운 받아줘야함
 - [CNN MNIST](./jupyter_file/CNN_MNIST.ipynb)  
 - [CNN Fashion MNIST](./jupyter_file/CNN_MNIST_2.ipynb)    
   
