@@ -7,7 +7,10 @@
     - 데이터 용량이 크기 때문에, 따로 데이터를 다운 받아줘야함
 - [CNN MNIST](./jupyter_file/CNN_MNIST.ipynb)  
 - [CNN Fashion MNIST](./jupyter_file/CNN_MNIST_2.ipynb)    
-  
+- [CNN MNIST 종합 및 내 손글씨 확인해보기](./jupyter_file/MNIST.ipynb)  
+    - CNN 이용한 MNIST 모델링 저장 및 내 손글씨 테스트해보기  
+
+
 ## CNN
 ### CNN 이란?
 이미지에 특화된 신경망 구조이다.  
