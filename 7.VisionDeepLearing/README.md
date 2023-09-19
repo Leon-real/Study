@@ -37,6 +37,14 @@ CNN 에서 pooling layer는 네트워크의 파라미터 갯수나 연산량을 
 - l2-norm pooling 등  
 
 
-
+#### 활용하는 영역  
+- OCR (Optical Character Recognition) : 문서의 텍스트를 인식하고 식별.  
+- Vision Biometrics : 홍채 패턴 인식을 통해 사람들을 구분합니다.  
+- Object Recognition : 실시간의 이미지나 스캔 입력을 가지고 제품을 분류합니다.  
+- Special Effects : 모션 캡처 및 모양 캡처, 영화에서의 CGI.  
+- 3-D Printing and Image Capture : 영화, 건축 구조 등에 사용됩니다.  
+- Sports : 경기에서 필드에 추가 라인을 그리거나 이를 기반으로 영상 판독을 합니다.  
+- Social Media : 얼굴 모양에 맞추어 착용되는 이미지.  
+- Smart Cars : 사물과 사람을 인지할 수 있습니다.  
+- Medical Imaging : 3D 이미징 및 이미지 유도 수술.  
   
-수정중
