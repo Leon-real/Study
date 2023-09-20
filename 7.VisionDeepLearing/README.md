@@ -10,7 +10,7 @@
 - [CNN MNIST 종합 및 내 손글씨 확인해보기](./jupyter_file/MNIST.ipynb)  
     - CNN 이용한 MNIST 모델링 저장 및 내 손글씨 테스트해보기  
 
-
+ 
 ## CNN
 ### CNN 이란?
 이미지에 특화된 신경망 구조이다.  
@@ -40,7 +40,8 @@ CNN 에서 pooling layer는 네트워크의 파라미터 갯수나 연산량을 
 #### 활용하는 영역  
 - OCR (Optical Character Recognition) : 문서의 텍스트를 인식하고 식별.  
 - Vision Biometrics : 홍채 패턴 인식을 통해 사람들을 구분합니다.  
-- Object Recognition : 실시간의 이미지나 스캔 입력을 가지고 제품을 분류합니다.  
+- Object Recognition : 실시간의 이미지나 스캔 입력을 가지고 제품을 분류합니다. 
+- Object Detection : 객체 탐지 
 - Special Effects : 모션 캡처 및 모양 캡처, 영화에서의 CGI.  
 - 3-D Printing and Image Capture : 영화, 건축 구조 등에 사용됩니다.  
 - Sports : 경기에서 필드에 추가 라인을 그리거나 이를 기반으로 영상 판독을 합니다.  
