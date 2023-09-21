@@ -9,7 +9,7 @@
 - [CNN Fashion MNIST](./jupyter_file/CNN_MNIST_2.ipynb)    
 - [CNN MNIST 종합 및 내 손글씨 확인해보기](./jupyter_file/MNIST.ipynb)  
     - CNN 이용한 MNIST 모델링 저장 및 내 손글씨 테스트해보기  
-
+- [시각장애인들을 위한 화폐 구분하기 프로젝트](./jupyter_file/project/)  
  
 ## CNN
 ### CNN 이란?

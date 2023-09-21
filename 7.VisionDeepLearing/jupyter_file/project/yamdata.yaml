@@ -1,0 +1,12 @@
+names:
+- Fifty_Thousand
+- Ten_Thousand
+- Five_Thousand
+- Thousand
+- Five_Hundred
+- Hundred
+- Fifty
+- Ten
+nc: 8
+train: ./data/imgs/train/
+val: ./data/imgs/val/

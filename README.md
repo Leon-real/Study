@@ -16,7 +16,9 @@ Study computer things
 [네이버 연관검색어, Gmarket 베스트상품 데이터 수집(크롤링)](./4.WebCrawling/jupyterfile/6.Several_Project.ipynb)  
 [미세먼지 농도 예측(머신러닝)](./5.MachineLearning/JupyterFiles/project/)  
 [장애인 콜택시 대기 시간 예측(머신러닝 딥러닝)](./5.MachineLearning/JupyterFiles/project2/)
-  
+[시각장애인들을 위한 화폐 구분하기 프로젝트](./7.VisionDeepLearing/jupyter_file/project/)  
+
+
 ### 코딩 문제 풀이
 [프로그래머스 코딩 문제 풀이](./programmers/)
 
