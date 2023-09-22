@@ -6,3 +6,17 @@
 - 데이터 출처 : [오픈데이터셋(selectstar)](https://open.selectstar.ai/ko/?page_id=5844)  
 - 데이터 구분 : Image  
 - 수행할 내용 : Object Detection  
+- 사용 라이브리러 : ultralytics의 yolo
+
+##### 주의할 점
+실행파일과 폴더의 경로 및 이름 설정에 유의해주어야한다.  
+특히 yaml파일의 경로 설정도 유의해야한다.  
+```
+폴더명(아무 폴더명이나 괜찮다.)  
+ㄴimages : 이미지 파일들을 넣어높은 폴더(폴더명 똑같이 해주어야함)  
+    ㄴtrain  
+    ㄴval  
+ㄴlabels : images안에 파일명과 매핑된, txt파일을 넣어놓은 폴더(폴더 명 똑같이해주어야함)  
+    ㄴtrain   
+    ㄴval  
+```
