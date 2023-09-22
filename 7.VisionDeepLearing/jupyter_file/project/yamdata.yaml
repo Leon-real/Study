@@ -1,12 +1,12 @@
 names:
-- Fifty_Thousand
-- Ten_Thousand
-- Five_Thousand
-- Thousand
-- Five_Hundred
-- Hundred
-- Fifty
-- Ten
+0:10
+1:50
+2:100
+3:500
+4:1000
+5:5000
+6:10000
+7:50000
 nc: 8
 train: ./data/imgs/train/
 val: ./data/imgs/val/
