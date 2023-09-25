@@ -4,7 +4,7 @@
 스마트폰 카메라를 통해 화폐 정보를 알려주는 AI 모델 개발하기  
 - [데이터 전처리](./DataProcessing.ipynb)  
 - [YOLO이용 모델링](./modeling.ipynb)  
-- [최종 테스트](./Test.ipynb)  
+- [최종 테스트 및 실시간 웹캠 감지](./Test.ipynb)  
 # 저시력자들을 위한 원화 화폐 분류  
 - 데이터 출처 : [오픈데이터셋(selectstar)](https://open.selectstar.ai/ko/?page_id=5844)  
 - 데이터 구분 : Image  
