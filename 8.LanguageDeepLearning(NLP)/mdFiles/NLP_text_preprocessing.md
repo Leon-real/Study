@@ -14,8 +14,7 @@
 ## 1. 토큰화
 주어진 코퍼스(corpus)에서 토큰(token)이라 불리는 단위로 나누는 작업을 토큰화(tokenization)라고 한다. 토큰의 단위가 상황에 따라 다르지만, 보통 의미있는 단위로 토큰을 정의한다.
 
-#### 코드 부분
-NLTK에서는 Penn Treebank POS Tags라는 기준을 사용하여 품사를 태깅  
+#### 단어 토큰화 코드 부분
 코드 부분  
 ```python
 from konlpy.tag import Okt
