@@ -10,6 +10,7 @@ Study computer things
 [5. Machine Learning : 머신러닝](./5.MachineLearning/)  
 [6. Deep Learning : 딥러닝](./6.DeepLearning/)  
 [7. Computer Vision Deep Learning : 컴퓨터 비전 딥러닝](./7.VisionDeepLearing/)  
+[8. Lnaguage Deep Learning : 언어지능 딥러닝](./8.LanguageDeepLearning/)  
 
 ### Project Files  
 [직방 동별 매물정보 수집(크롤링)](./4.WebCrawling/jupyterfile/4.Final_Crawling.ipynb)  
