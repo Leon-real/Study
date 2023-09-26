@@ -1,4 +1,9 @@
-# Natural Language Processing 자연어 처리  
+# Natural Language Processing 자연어 처리 
+
+##### 코드 파일
+[Jaccard Similiary 자카드 유사도](./jupyter/jaccard_similarity.ipynb)  
+
+
 ### TF-IDF
 TF-IDF란  
 정보 검색과 텍스트 마이닝에서 이용하는 가중치로, 여러 문서로 이루어진 문서군에 있을 때,  
