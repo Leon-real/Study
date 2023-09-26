@@ -5,7 +5,7 @@
 
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
-- Word Embedding  
+- [Word Embedding](./mdFiles/NLP_WordEmbedding.md)  
   
 ### TF-IDF
 TF-IDF란  
