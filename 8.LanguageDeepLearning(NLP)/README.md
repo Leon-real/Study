@@ -3,7 +3,10 @@
 ##### 코드 파일
 [여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
 
-
+##### MD 파일
+- [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
+- Word Embedding  
+  
 ### TF-IDF
 TF-IDF란  
 정보 검색과 텍스트 마이닝에서 이용하는 가중치로, 여러 문서로 이루어진 문서군에 있을 때,  
@@ -18,7 +21,6 @@ TF-IDF란
 **즉 TF-IDF는 TF와 IDF를 곱한 값이다.**   
 ![TF-IDF](./img/tf_idf.png)  
 
-## Word Embedding
 #### 단어 표현
 - 질문 : 어떻게 텍스트를 표현해야 자연어 처리 모델에 적용할 수 있을까?
     ⇒ 언어적인 특성을 반영하여 단어를 수치화 하는 방법 → **벡터**를 이용한다.
