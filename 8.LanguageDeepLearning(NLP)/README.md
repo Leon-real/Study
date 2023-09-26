@@ -1,4 +1,4 @@
-# 언어지능 딥러닝
+# Natural Language Processing 자연어 처리  
 ### 1. TF-IDF
 
 TF-IDF란  
