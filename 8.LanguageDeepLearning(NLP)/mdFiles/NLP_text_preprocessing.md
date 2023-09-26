@@ -6,7 +6,7 @@
 4. [불용어](#4-불용어)
 5. [정규 표현식](#5-정규-표현식)
 6. [정수 인코딩](#6-정수-인코딩)
-7. 패딩
+7. [패딩](#7-패딩)
 8. 원-핫 인코딩
 9. 데이터의 분리
 10. 한국어 전처리 패키지
@@ -162,3 +162,100 @@ print('불용어 제거 후 :',result)
     tokenizer.fit_on_texts(preprocessed_sentences) 
     ```  
     fit_on_texts는 입력한 텍스트로부터 단어 빈도수가 높은 순으로 낮은 정수 인덱스를 부여하는데, 정확히 앞서 설명한 정수 인코딩 작업이 이루어진다고 보면된다.  
+
+## 7. 패딩
+자연어 처리를 하다보면 각 문장(또는 문서)은 서로 길이가 다를 수 있다.  
+병렬 연산을 위해서 여러 문장의 길이를 임의로 동일하게 맞춰주는 작업이 필요할 때가 있다.  
+이때, 패딩을 이용한다. 
+1. Numpy 이용 
+```python
+import numpy as np
+from tensorflow.keras.preprocessing.text import Tokenizer
+
+preprocessed_sentences = [['barber', 'person'], ['barber', 'good', 'person'], ['barber', 'huge', 'person'], ['knew', 'secret'], ['secret', 'kept', 'huge', 'secret'], ['huge', 'secret'], ['barber', 'kept', 'word'], ['barber', 'kept', 'word'], ['barber', 'kept', 'secret'], ['keeping', 'keeping', 'huge', 'secret', 'driving', 'barber', 'crazy'], ['barber', 'went', 'huge', 'mountain']]
+
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(preprocessed_sentences)
+encoded = tokenizer.texts_to_sequences(preprocessed_sentences)
+print(encoded)
+```
+위 코드 실행 후, 아래와 같이 고유한 정수로 변환한다.
+```
+[[1, 5], 
+[1, 8, 5], 
+[1, 3, 5], 
+[9, 2], 
+[2, 4, 3, 2], 
+[3, 2], 
+[1, 4, 6], 
+[1, 4, 6], 
+[1, 4, 2], 
+[7, 7, 3, 2, 10, 1, 11], 
+[1, 12, 3, 13]]
+```
+이때, 가장 길이가 긴 문장의 길이는 7이다.  
+이때 가상의 단어 'PAD'를 사용한. 'PAD'라는 단어가 있다고 가정하고, 이 단어는 0번 단어라고 정의한다. 길이가 7보다 짧은 문장에는 숫자 0을 채워서 길이 7로 맞춰준다.  
+```python
+for sentence in encoded:
+    while len(sentence) < max_len:
+        sentence.append(0)
+
+padded_np = np.array(encoded)
+padded_np
+```
+위 코드 실행 후 결과
+```python
+array([[ 1,  5,  0,  0,  0,  0,  0],
+       [ 1,  8,  5,  0,  0,  0,  0],
+       [ 1,  3,  5,  0,  0,  0,  0],
+       [ 9,  2,  0,  0,  0,  0,  0],
+       [ 2,  4,  3,  2,  0,  0,  0],
+       [ 3,  2,  0,  0,  0,  0,  0],
+       [ 1,  4,  6,  0,  0,  0,  0],
+       [ 1,  4,  6,  0,  0,  0,  0],
+       [ 1,  4,  2,  0,  0,  0,  0],
+       [ 7,  7,  3,  2, 10,  1, 11],
+       [ 1, 12,  3, 13,  0,  0,  0]])
+```
+2. Keras 이용
+```python
+import numpy as np
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+
+preprocessed_sentences = [['barber', 'person'], ['barber', 'good', 'person'], ['barber', 'huge', 'person'], ['knew', 'secret'], ['secret', 'kept', 'huge', 'secret'], ['huge', 'secret'], ['barber', 'kept', 'word'], ['barber', 'kept', 'word'], ['barber', 'kept', 'secret'], ['keeping', 'keeping', 'huge', 'secret', 'driving', 'barber', 'crazy'], ['barber', 'went', 'huge', 'mountain']]
+
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(preprocessed_sentences)
+encoded = tokenizer.texts_to_sequences(preprocessed_sentences)
+print(encoded)
+```
+위 코드에 이어서
+```python
+padded = pad_sequences(encoded)
+padded
+```
+실행 결과
+```python
+array([[ 0,  0,  0,  0,  0,  1,  5],
+       [ 0,  0,  0,  0,  1,  8,  5],
+       [ 0,  0,  0,  0,  1,  3,  5],
+       [ 0,  0,  0,  0,  0,  9,  2],
+       [ 0,  0,  0,  2,  4,  3,  2],
+       [ 0,  0,  0,  0,  0,  3,  2],
+       [ 0,  0,  0,  0,  1,  4,  6],
+       [ 0,  0,  0,  0,  1,  4,  6],
+       [ 0,  0,  0,  0,  1,  4,  2],
+       [ 7,  7,  3,  2, 10,  1, 11],
+       [ 0,  0,  0,  1, 12,  3, 13]], dtype=int32)
+
+```
+
+## 8. 원-핫 인코딩
+
+
+
+## 9. 데이터의 분리
+
+
+## 10. 한국어 전처리 패키지
