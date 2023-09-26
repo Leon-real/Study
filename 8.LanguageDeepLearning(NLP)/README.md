@@ -1,7 +1,7 @@
 # Natural Language Processing 자연어 처리 
 
 ##### 코드 파일
-[Jaccard Similiary 자카드 유사도](./jupyter/jaccard_similarity.ipynb)  
+[여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
 
 
 ### TF-IDF
