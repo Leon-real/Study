@@ -1,10 +1,10 @@
 # Natural Language Processing 자연어 처리 
 
 ##### 코드 파일
-[여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
-[TF 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir_TF2.ipynb)  
-[Cosine Similarity 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir-CosineSimilarity.ipynb)  
-
+[자연어 처리 : 여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
+[자연어 처리 : TF 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir_TF2.ipynb)  
+[자연어 처리 : Cosine Similarity 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir-CosineSimilarity.ipynb)  
+[자연어 처리 : 영화 리뷰 감정 분석하기](./jupyter/Sentiment_movie_review.ipynb)  
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
 - [자연어 처리 - 워드 임베딩(Word Embedding)](./mdFiles/NLP_WordEmbedding.md)  
