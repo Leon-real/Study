@@ -6,7 +6,7 @@
 4. [패스트텍스트(FastText)](#4-패스트텍스트fasttext)
 5. [엘모(ELMO)](#5-엘모elmo)
 6. [임베딩 벡터의 시각화(Embedding Visualization)](#6-임베딩-벡터의-시각화embedding-visualization)  
-
+7. [영어/한국어 Word2Vec만들기](#7-영어한국어-word2vec만들기)  
 
 ## 1. 워드 임베딩(Word Embedding)
 워드 임베딩(Word Embedding)은 단어를 벡터로 표현하는 방법으로,  
@@ -24,6 +24,21 @@
 
 ## 2. 워드 투 벡터(Word2Vec)
 단어 벡터 간 유의미한 유사도를 반영할 수 있도록 단어의 의미를 수치화 할 수 있는 대표적인 방법이 워드투벡터(Word2Vec)이다.  
+### 표현 방식
+#### 분산 표현(Distributed Representation)
+- 분산 표현(distributed representation) 방법은 기본적으로 분포 가설(distributional hypothesis)이라는 가정 하에 만들어진 표현 방법이다.  
+- 이 가정은 '비슷한 문맥에서 등장하는 단어들은 비슷한 의미를 가진다' 라는 가정이다.  
+-분산 표현은 분포 가설을 이용하여 텍스트를 학습하고, 단어의 의미를 벡터의 여러 차원에 분산하여 표현한다.  
+- 단어의 의미를 여러 차원에다가 분산 하여 표현한다. 이런 표현 방법을 사용하면 단어 벡터 간 유의미한 유사도를 계산할 수 있다.
+
+### 학습 방식
+- 예문 : "The fat cat sat on the mat"
+
+1. CBOW(Continuous Bag of Words)
+- 주변에 있는 단어들을 입력으로 중간에 있는 단어들을 예측하는 방법이다.  
+2. Skip-Gram
+- 중간에 있는 단어들을 입력으로 주변 단어들을 예측하는 방법이다.  
+
 
 ## 3. 글로브(GloVe)
 
@@ -36,3 +51,56 @@
 
 ## 6. 임베딩 벡터의 시각화(Embedding Visualization)
 
+## 7. 영어/한국어 Word2Vec만들기 
+- 사용되는 라이브러리
+    ```python
+    from gensim.models import Word2Vec
+    from gensim.models import KeyedVectors
+    ```
+- Word2Vec 훈련시키기
+    - vector_size = 워드 벡터의 특징 값. 즉, 임베딩 된 벡터의 차원.
+    - window = 컨텍스트 윈도우 크기
+    - min_count = 단어 최소 빈도 수 제한 (빈도가 적은 단어들은 학습하지 않는다.)
+    - workers = 학습을 위한 프로세스 수
+    - sg = 0은 CBOW, 1은 Skip-gram.
+    ```python
+    # result는 토큰화된 결과물
+    model = Word2Vec(sentences=result, vector_size=100, window=5, min_count=5, workers=4, sg=0)
+    ```
+- Word2Vec 모델 저장하고 로드하기
+```python
+model.wv.save_word2vec_format('eng_w2v') # 모델 저장
+loaded_model = KeyedVectors.load_word2vec_format("eng_w2v") # 모델 로드
+
+model_result = loaded_model.most_similar("man")
+print(model_result)
+```
+### 사전에 훈련된 Word2Vec 임베딩
+- 라이브러리 및 모델 로드
+    ```python
+    import gensim
+    import urllib.request
+
+    # 구글의 사전 훈련된 Word2Vec 모델을 로드.
+    urllib.request.urlretrieve("https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz", \
+                            filename="GoogleNews-vectors-negative300.bin.gz")
+    word2vec_model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin.gz', binary=True)
+    ```
+- 모델 크기 확인
+    ```python
+    print(word2vec_model.vectors.shape)
+    ```
+    ```python
+    (3000000, 300)
+    ```
+    - 모델의 크기는 3,000,000 x 300이다. 즉, 3백만 개의 단어와 각 단어의 차원은 300입니다. 파일의 크기가 3기가가 넘는 이유를 계산해보면 아래와 같다.
+    - 3 million words * 300 features * 4bytes/feature = ~3.35GB
+    - 사전 훈련된 임베딩을 사용하여 두 단어의 유사도 계산해보기
+        ```python
+        print(word2vec_model.similarity('this', 'is'))
+        print(word2vec_model.similarity('post', 'book'))
+        ```
+    - 단어 'book'의 벡터를 출력해보기
+        ```python
+        print(word2vec_model['book'])
+        ```
