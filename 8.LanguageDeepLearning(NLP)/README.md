@@ -2,7 +2,8 @@
 
 ##### 코드 파일
 [여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
-[뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir.ipynb)  
+[TF 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir_TF.ipynb)  
+[Cosine Similarity 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir-CosineSimilarity.ipynb)  
 
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
