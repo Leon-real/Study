@@ -3,7 +3,9 @@
 ##### 코드 파일
 [[기초] 자연어 처리 : 여러가지 유사도 측정 방법](./jupyter/Similarity.ipynb)  
 [[기초] 자연어 처리 : TF 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir_TF2.ipynb)  
+[[기초] 자연어 처리 : TF-IDF 뉴스 정보 수집 및 분석 - Rss Information Research](./jupyter/rss_ir_TF-IDF.ipynb)  
 [[기초] 자연어 처리 : Cosine Similarity 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir-CosineSimilarity.ipynb)  
+
    
 [[활용] 자연어 처리 : 영화 리뷰 감정 분석하기](./jupyter/Sentiment_movie_review.ipynb)  
 ##### MD 파일
