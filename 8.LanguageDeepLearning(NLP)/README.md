@@ -7,6 +7,9 @@
 [[기초] 자연어 처리 : Cosine Similarity 뉴스 정보 수집 및 키워드 분석 - Rss Information Research](./jupyter/rss_ir-CosineSimilarity.ipynb)  
    
 [[활용] 자연어 처리 : 영화 리뷰 감정 분석하기](./jupyter/Sentiment_movie_review.ipynb)  
+   
+[ANN Implementation(Keras)](./jupyter/deeplearning/ANN_Implementation.ipynb)  
+   
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
 - [자연어 처리 - 워드 임베딩(Word Embedding)](./mdFiles/NLP_WordEmbedding.md)  
