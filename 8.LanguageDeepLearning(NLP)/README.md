@@ -9,6 +9,7 @@
 [[활용] 자연어 처리 : 영화 리뷰 감정 분석하기](./jupyter/Sentiment_movie_review.ipynb)  
    
 [[딥러닝] ANN Implementation(Keras)](./jupyter/deeplearning/ANN_Implementation.ipynb)  
+[[딥러닝] CNN Implementation(Keras)](./jupyter/deeplearning/CNN_Implementation.ipynb)  
    
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
