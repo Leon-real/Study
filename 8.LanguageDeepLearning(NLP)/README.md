@@ -14,7 +14,7 @@
 [[딥러닝] CNN Implementation(Keras) - CIFAR10](./jupyter/deeplearning/CNN_Implementation(CIFAR10).ipynb)  
 [[딥러닝] RNN Implementation(Keras)](./jupyter/deeplearning/RNN_Implementation.ipynb)  
 [[딥러닝] GAN Implementation(Keras)](./jupyter/deeplearning/GAN_Implementation.ipynb)  
-[[딥러닝] GAN Implementation(Keras) Easy](./jupyter/deeplearning/GAN_Implementation.ipynb)  
+[[딥러닝] GAN Implementation(Keras) Easy](./jupyter/deeplearning/GAN_Implementation(Easy).ipynb)  
    
 ##### MD 파일
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
