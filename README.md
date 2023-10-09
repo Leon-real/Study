@@ -19,6 +19,9 @@ Study computer things
 [장애인 콜택시 대기 시간 예측(머신러닝 딥러닝)](./5.MachineLearning/JupyterFiles/project2/)  
 [시각장애인들을 위한 화폐 구분하기 프로젝트](./7.VisionDeepLearning(CoumputerVision)/jupyter_file/project/)  
 
+### Personal Deep Learning Study
+[AI 개인 공부](./AI/)
+
 
 ### 코딩 문제 풀이
 [프로그래머스 코딩 문제 풀이](./programmers/)
