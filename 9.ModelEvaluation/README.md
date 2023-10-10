@@ -1,12 +1,14 @@
 # AI Model Evaluation : AI 모델 평가와 해석
 ### 목차
-[모델 해석 방식 분류 이미지 보기](#모델-해석-방식-분류)  
-[PFI(Permutation Feature Importance) 설명](#pfipermutation-feature-importance--일반-모델의-변수-중요도)  
-[PDP(Partial Dependence Plots) 설명](#pdppartial-dependence-plots--x의-변화에-따른-y_hat의-변화---aㅗ델-전체global)
-[ICE plot 설명](#iceindividuyal-conditional-expectation-plot--x의-변화에-따른-y_hat의-변화---개별-데이터local)  
+- [모델 해석 방식 분류 이미지 보기](#모델-해석-방식-분류)  
+- [PFI(Permutation Feature Importance) 설명](#pfipermutation-feature-importance--일반-모델의-변수-중요도)  
+- [PDP(Partial Dependence Plots) 설명](#pdppartial-dependence-plots--x의-변화에-따른-y_hat의-변화---aㅗ델-전체global)  
+- [ICE plot 설명](#iceindividuyal-conditional-expectation-plot--x의-변화에-따른-y_hat의-변화---개별-데이터local)  
 
+- [코드파일 목록](#jupyter-code-files--코드-파일들)  
 
-##### Jupyter Code Files : 코드 파일들
+  
+## Jupyter Code Files : 코드 파일들
 - [Review ML and DL : 머신러닝과 딥러닝 리마인드](./jupyterfiles/review_ML_DL.ipynb)  
 - [Tree Model Feature Importance : 트리 모델의 변수 중요도](./jupyterfiles/Tree_Model_feature_importance.ipynb)  
     - [Example : Attrition](./jupyterfiles/Feature_Importance_Example.ipynb)  
