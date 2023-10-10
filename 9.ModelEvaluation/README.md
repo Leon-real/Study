@@ -1,4 +1,10 @@
 # AI Model Evaluation : AI 모델 평가와 해석
+### 목차
+[모델 해석 방식 분류 이미지 보기](#모델-해석-방식-분류)  
+[PFI(Permutation Feature Importance) 설명](#pfipermutation-feature-importance--일반-모델의-변수-중요도)  
+[PDP(Partial Dependence Plots) 설명](#pdppartial-dependence-plots--x의-변화에-따른-y_hat의-변화---aㅗ델-전체global)
+[ICE plot 설명](#iceindividuyal-conditional-expectation-plot--x의-변화에-따른-y_hat의-변화---개별-데이터local)  
+
 
 ##### Jupyter Code Files : 코드 파일들
 - [Review ML and DL : 머신러닝과 딥러닝 리마인드](./jupyterfiles/review_ML_DL.ipynb)  
@@ -8,7 +14,7 @@
     - [Example : Attrition](./jupyterfiles/PFI_Example.ipynb)  
 
 
-##### 모델 해석 방식 분류
+## 모델 해석 방식 분류
 ![이미지](./images/Model_Evaluations.png)  
 
 ## PFI(Permutation Feature Importance) : 일반 모델의 변수 중요도
