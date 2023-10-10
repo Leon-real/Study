@@ -37,4 +37,10 @@
             - importnaces : feature별 반복횟수만큼 계산된 Score
             - importnaces_mean : 변수별 평균
             - importances_std : 변수별 표준편차
- 
+## PDP(Partial Dependence Plots) : X의 변화에 따른 y_hat의 변화 - aㅗ델 전체(Global)
+- 여러 행에 대한 ICE plot이다.
+- 각 ICE plot의 평균선이 바로 PDP 이다.
+- 관심 Feature의 값이 변할 때, 모델에 미치는 영향을 시각화한다.
+## ICE(Individuyal Conditional Expectation) plot : X의 변화에 따른 y_hat의 변화 - 개별 데이터(Local)
+- 개별 행에서 특정 변수의 변화에 따른 예측 값의 변화(영향력) 시각화
+    - 변수의 영향력을 파악하는데 유용하다.
