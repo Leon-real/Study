@@ -23,11 +23,11 @@
 
 - permutation_importance
     ```python
-        from sklearn.inspection import permutation_importance
-        # 모델 설정하고
-        #모델 fit을 마친 뒤,
+    from sklearn.inspection import permutation_importance
+    # 모델 설정하고
+    #모델 fit을 마친 뒤,
 
-        pfi = permutation_importance(model, x_val, y_val, n_repeats=10, random_state=2023)
+    pfi = permutation_importance(model, x_val, y_val, n_repeats=10, random_state=2023)
     ```
     - 위 코드에서 permutation_importance의 매개변수 설명
         - model : 아무 모델이나 상관없음
