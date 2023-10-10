@@ -15,7 +15,9 @@
 - [Permutation Feature Importance(PFI) : 일반 모델의 변수 중요도](./jupyterfiles/PFI.ipynb)  
     - [Example : Attrition](./jupyterfiles/PFI_Example.ipynb)  
 - [Overall Feature Importnace : 변수 중요도 종합 코드 파일](./jupyterfiles/Credit_Loan_Approval_Process.ipynb)  
+<br>
 
+- [PDP, ICE plot](./jupyterfiles/PDP_ICEplot.ipynb)  
 
 ## 모델 해석 방식 분류
 ![이미지](./images/Model_Evaluations.png)  
