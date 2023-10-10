@@ -14,6 +14,7 @@
     - [Example : Attrition](./jupyterfiles/Feature_Importance_Example.ipynb)  
 - [Permutation Feature Importance(PFI) : 일반 모델의 변수 중요도](./jupyterfiles/PFI.ipynb)  
     - [Example : Attrition](./jupyterfiles/PFI_Example.ipynb)  
+- [Overall Feature Importnace](./jupyterfiles/Credit_Loan_Approval_Process.ipynb)  
 
 
 ## 모델 해석 방식 분류
