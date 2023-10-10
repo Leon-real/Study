@@ -19,3 +19,4 @@
 - Algorithm 구조
     - 특정 Feature j에 대해서, 여러번(K)시도(섞고, Score계산)해서 나온 Score의 평균 계산
     - $i_{j} = s - \frac{1}{K} \displaystyle\sum_{k=1}^{K} S_k,j$
+- 단점 : 만약 다중 공선성이 있는 변수가 존재할 때, 특정 변수 하나가 섞이면 관련된 변수는 그대로 있으므로 Score가 별로 줄어들지 않을 수 있다.
