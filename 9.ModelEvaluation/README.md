@@ -15,4 +15,4 @@
 
 - Algorithm 구조
     - 특정 Feature j에 대해서, 여러번(K)시도(섞고, Score계산)해서 나온 Score의 평균 계산
-    - $i_{j} = s - \frac{1}{K}\sum_{k=1}^{K} S_k,j$
+    - $i_{j} = s - \frac{1}{K} \sum_{k=1}^{K} S_k,j$
