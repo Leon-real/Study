@@ -4,8 +4,10 @@
 [PFI(Permutation Feature Importance) 설명](#pfipermutation-feature-importance--일반-모델의-변수-중요도)  
 [PDP(Partial Dependence Plots) 설명](#pdppartial-dependence-plots--x의-변화에-따른-y_hat의-변화---aㅗ델-전체global)  
 [ICE plot 설명](#iceindividuyal-conditional-expectation-plot--x의-변화에-따른-y_hat의-변화---개별-데이터local)  
-[SHAP 설명](#shapshapley-value)
+[SHAP 설명](#shapshapley-value)  
+[Evaluation For Business](#evaluation-for-business)  
 <br>  
+
 [코드파일 목록](#jupyter-code-files--코드-파일들)  
 
   
@@ -78,3 +80,8 @@
     - KernelExplainer
 - 그외 일반 알고리즘
     - Explainer
+
+## Evaluation For Business
+- 비지니스 평가를 하기 위한 준비  
+    - Step 1. : 예측 결과에 대한 후속 조치 정의  
+    - Step 2. : 후속 조치에 대한 비지니스 가치 매트릭스 만들기  
