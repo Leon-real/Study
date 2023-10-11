@@ -64,6 +64,7 @@
 
 ## SHAP(Shapley Value)
 - 모든 가능한 조합에서, 하나의 feature에 대한 평균 기여도를 계산한 값
+    - 이를 통하여서 하나의 feature에 대하여 다른 feature가 어떠한 영향력을 미치는지 알 수 있다.  
 - Tree 기반 알고리즘
     - TreeExplainer
 - Deep Learning
