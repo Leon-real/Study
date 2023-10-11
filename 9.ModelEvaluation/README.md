@@ -4,6 +4,7 @@
 [PFI(Permutation Feature Importance) 설명](#pfipermutation-feature-importance--일반-모델의-변수-중요도)  
 [PDP(Partial Dependence Plots) 설명](#pdppartial-dependence-plots--x의-변화에-따른-y_hat의-변화---aㅗ델-전체global)  
 [ICE plot 설명](#iceindividuyal-conditional-expectation-plot--x의-변화에-따른-y_hat의-변화---개별-데이터local)  
+[SHAP 설명](#shapshapley-value)
 <br>  
 [코드파일 목록](#jupyter-code-files--코드-파일들)  
 
@@ -55,3 +56,14 @@
 ## ICE(Individuyal Conditional Expectation) plot : X의 변화에 따른 y_hat의 변화 - 개별 데이터(Local)
 - 개별 행에서 특정 변수의 변화에 따른 예측 값의 변화(영향력) 시각화
     - 변수의 영향력을 파악하는데 유용하다.
+
+## SHAP(Shapley Value)
+- 모든 가능한 조합에서, 하나의 feature에 대한 평균 기여도를 계산한 값
+- Tree 기반 알고리즘
+    - TreeExplainer
+- Deep Learning
+    - DeepExplainer
+- SVM
+    - KernelExplainer
+- 그외 일반 알고리즘
+    - Explainer
