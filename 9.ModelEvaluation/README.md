@@ -24,7 +24,10 @@
 <br>
 
 - [SHAP](./jupyterfiles/SHAP.ipynb)  
-
+    -[Example : Attrition](./jupyterfiles/SHAP_Example.ipynb)  
+- [Overall SHAP : SHAP 분석 종합 코드 파일](./jupyterfiles/Credit_Loan_Approval_Process_3.ipynb) 
+  
+  
 ## 모델 해석 방식 분류
 ![이미지](./images/Model_Evaluations.png)  
 
