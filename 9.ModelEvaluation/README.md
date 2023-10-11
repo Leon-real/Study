@@ -24,7 +24,7 @@
 <br>
 
 - [SHAP](./jupyterfiles/SHAP.ipynb)  
-    -[Example : Attrition](./jupyterfiles/SHAP_Example.ipynb)  
+    - [Example : Attrition](./jupyterfiles/SHAP_Example.ipynb)  
 - [Overall SHAP : SHAP 분석 종합 코드 파일](./jupyterfiles/Credit_Loan_Approval_Process_3.ipynb) 
   
   
