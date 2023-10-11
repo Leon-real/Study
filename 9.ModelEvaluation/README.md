@@ -19,7 +19,8 @@
 <br>
 
 - [PDP, ICE plot](./jupyterfiles/PDP_ICEplot.ipynb)  
-
+    - [Example : Attrition](./jupyterfiles/PDP_ICEplot_Example.ipynb)  
+      
 ## 모델 해석 방식 분류
 ![이미지](./images/Model_Evaluations.png)  
 
