@@ -20,7 +20,8 @@
 
 - [PDP, ICE plot](./jupyterfiles/PDP_ICEplot.ipynb)  
     - [Example : Attrition](./jupyterfiles/PDP_ICEplot_Example.ipynb)  
-      
+- [Overall PDP, ICE plot : 예측값 변화량 분석 종합 코드 파일](./jupyterfiles/Credit_Loan_Approval_Process.ipynb) 
+
 ## 모델 해석 방식 분류
 ![이미지](./images/Model_Evaluations.png)  
 
