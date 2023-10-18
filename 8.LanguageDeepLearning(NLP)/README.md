@@ -20,7 +20,7 @@
 - [자연어 처리 -  텍스트 전처리(Text Preprocessing)](./mdFiles/NLP_text_preprocessing.md)  
 - [자연어 처리 - 워드 임베딩(Word Embedding)](./mdFiles/NLP_WordEmbedding.md)  
   
-##### 참고 사이트
+##### 자연어처리 머신러닝, 딥러닝 튜도리얼 참고 사이트
 - [Machine Learning(N-grams) : sklearn-tutorial](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
 - [Hyperparameter Tuning : grid search tutorial sklearn](https://scikit-learn.org/stable/modules/grid_search.html)
 - [Hyperparameter Tuning : optuna tutorial](https://optuna.org/#code_examples)
