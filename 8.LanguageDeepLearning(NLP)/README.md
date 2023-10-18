@@ -21,26 +21,15 @@
 - [자연어 처리 - 워드 임베딩(Word Embedding)](./mdFiles/NLP_WordEmbedding.md)  
   
 ##### 참고 사이트
-**Machine Learning(N-grams)**
-
-- [sklearn-tutorial](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
-
-**Hyperparameter Tuning(Optional)**
-
-- [grid search tutorial sklearn](https://scikit-learn.org/stable/modules/grid_search.html)
-- [optuna tutorial](https://optuna.org/#code_examples)
-- [ray-tune tutorial](https://docs.ray.io/en/latest/tune/examples/tune-sklearn.html)
-
-**Deep Learning(Sequence)**
-
-- [Google Tutorial](https://developers.google.com/machine-learning/guides/text-classification)
-- [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/keras/text_classification)
-- [Keras-tutorial](https://keras.io/examples/nlp/text_classification_from_scratch/)
-
-**Using pre-trained model(Optional)**
-
-- [BERT-tutorial](https://www.tensorflow.org/text/guide/bert_preprocessing_guide)
-- [HuggingFace-Korean](https://huggingface.co/models?language=korean)
+- [Machine Learning(N-grams) : sklearn-tutorial](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html)
+- [Hyperparameter Tuning : grid search tutorial sklearn](https://scikit-learn.org/stable/modules/grid_search.html)
+- [Hyperparameter Tuning : optuna tutorial](https://optuna.org/#code_examples)
+- [Hyperparameter Tuning : ray-tune tutorial](https://docs.ray.io/en/latest/tune/examples/tune-sklearn.html)
+- [Deep Learning(Sequence) : Google Tutorial](https://developers.google.com/machine-learning/guides/text-classification)
+- [Deep Learning(Sequence) : Tensorflow Tutorial](https://www.tensorflow.org/tutorials/keras/text_classification)
+- [Deep Learning(Sequence) : Keras-tutorial](https://keras.io/examples/nlp/text_classification_from_scratch/)
+- [Using pre-trained model : BERT-tutorial](https://www.tensorflow.org/text/guide/bert_preprocessing_guide)
+- [Using pre-trained model : HuggingFace-Korean](https://huggingface.co/models?language=korean)
 
 
 ### TF-IDF
