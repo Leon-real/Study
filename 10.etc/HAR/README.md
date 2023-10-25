@@ -1,4 +1,7 @@
 # 인간 행동 인식 예측하기 (Human Activity Recognition)
+##### 데이터 목록
+- [1. 데이터 분석 EDA](./jupyter/1.EDA.ipynb)  
+- [2. 모델링](./jupyter/2.Modeling.ipynb)  
 
 ### 데이터 출처
 [UCI - Human Activity Recognition](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)  
