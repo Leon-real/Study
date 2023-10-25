@@ -12,6 +12,7 @@ Study computer things
 [7. Computer Vision Deep Learning : 컴퓨터 비전 딥러닝](./7.VisionDeepLearning(CoumputerVision)/)  
 [8. Language Deep Learning : 언어지능 딥러닝](./8.LanguageDeepLearning(NLP)/)  
 [9. Model Evaluation : 모델 해석과 평가](./9.ModelEvaluation/)  
+[10. 기타 파일](./10.etc/)
 
 ### Project Files  
 [직방 동별 매물정보 수집(크롤링)](./4.WebCrawling/jupyterfile/4.Final_Crawling.ipynb)  
@@ -19,6 +20,7 @@ Study computer things
 [미세먼지 농도 예측(머신러닝)](./5.MachineLearning/JupyterFiles/project/)  
 [장애인 콜택시 대기 시간 예측(머신러닝 딥러닝)](./5.MachineLearning/JupyterFiles/project2/)  
 [시각장애인들을 위한 화폐 구분하기 프로젝트](./7.VisionDeepLearning(CoumputerVision)/jupyter_file/project/)  
+[인간 행동 인식 분류](./10.etc/HAR/)  
 
 ### Personal Deep Learning Study
 [AI 개인 공부](./AI/)
