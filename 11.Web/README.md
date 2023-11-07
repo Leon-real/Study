@@ -12,4 +12,4 @@
 - python
 ```
 ##### 목차
-1. [HTML](./md/html.md)  
+1. [HTML 기본 정리](./md/html.md)  
