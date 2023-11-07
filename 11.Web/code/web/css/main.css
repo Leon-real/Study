@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'd2coding';
+    src: url('../fonts/D2Coding.ttc');
+}
+
+.wrap>p {
+    font-family: d2coding;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'd2coding';
+}
+
+header {
+    height: 60px;
+    background-color: white;
+    color: black;
+}
+
+header>.wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+header>.wrap>.logo {
+    font-size: 32px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+header>.wrap>ul {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+header>.wrap>ul>li {
+    float: left;
+    margin-left: 10px;
+}
+
+header>.wrap>ul>li>a {
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: bold;
+}

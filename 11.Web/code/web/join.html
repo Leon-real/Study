@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Site Join</title>
+</head>
+<body>
+    <!-- header.header>nav.wrap>ul>li*3 -->
+    <header class="header">
+        <nav class="wrap">
+            <label class="logo">Sample</label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./join.html">Join</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main>section.wrap -->
+    <main>
+        <section class="wrap">
+            <!-- div.join-wrap>(div.attr-wrap>(label+br+input)^hr)*6 -->
+            <div class="join-wrap">
+                <div class="attr-wrap">
+                    <label for="email">Email ID</label><br>
+                    <input id="email" type="text" placeholder="sample@email.com">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label for="pw">Password</label><br>
+                    <input id="pw" type="password">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label for="ckpw">Check Password</label><br>
+                    <input id="ckpw" type="password">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label for="">Address</label><br>
+                    <div class="input-addr">
+                        <label><input type="radio" name="addr">America</label>
+                        <label><input type="radio" name="addr" checked>South Korea</label>
+                    </div>
+                </div><hr>
+                <div class="attr-wrap">
+                    <label for="">Birthday</label><br>
+                    <input id="birthday" type="date" value="2023-01-01">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Subscription Path</label><br>
+                    <!-- select#subscription>option[value='opt$']*3 -->
+                    <select id="subscription">
+                        <option value="opt1">Not Selected</option>
+                        <option value="opt2">Recommended by Friends</option>
+                        <option value="opt3">Advertisement</option>
+                    </select>
+                </div><hr>
+                <small class="msg">Test msg</small>
+            </div>
+            <button id="join-btn" type="button">join</button>
+        </section>
+    </main>
+    <!-- footer.footer>p{All rights reserved. @Leon} -->
+    <footer class="footer">
+        <p>All rights reserved. @Leon</p>
+    </footer>
+</body>
+</html>
