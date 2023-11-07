@@ -20,7 +20,7 @@
 - Text : 시작태그와 끝태그 사이에 있는 문자열
 ## HTML 기본구조
 ![기본구조 이미지](./img/html_structure.png)  
-1. <!DOCTYPE html> : document 타입이 html 문서
+1. `<!DOCTYPE html>` : document 타입이 html 문서
 2. <html> : 웹문서의 시작과 끝을 나타내는 태그
 3. <head> : 웹문서의 정보에 대한 코드 작성
 4. <body> : 웹문서에서 화면에 출력되는 코드 작성
