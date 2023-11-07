@@ -18,14 +18,12 @@
 - class : Element를 정의하는 값으로 하나의 Element가 여러개의 class를 가질수 있음
 - attr : id, class를 제외한 나머지 속성값 : href, scr, type, name 등등
 - Text : 시작태그와 끝태그 사이에 있는 문자열
-
 ## HTML 기본구조
 ![기본구조 이미지](./img/html_structure.png)  
 1. <!DOCTYPE html> : document 타입이 html 문서
-2. <html> ~ </html> : 웹문서의 시작과 끝을 나타내는 태그
-3. <head> ~ </head> : 웹문서의 정보에 대한 코드 작성
-4. <body> ~ <body> : 웹문서에서 화면에 출력되는 코드 작성
-
+2. <html> : 웹문서의 시작과 끝을 나타내는 태그
+3. <head> : 웹문서의 정보에 대한 코드 작성
+4. <body> : 웹문서에서 화면에 출력되는 코드 작성
 ## HTML 페이지 구조
 - 시멘틱 태그 : sementic tag : 태그 이름으로 의미를 알수 있는 태그
     - <header> : 헤더 영역 표현
@@ -37,7 +35,6 @@
     - <footer> : 웹문서 아래 영역 표현
 - 시멘틱 태그로 웹페이지의 전체적인 구조를 구성
 - 시멘틱 태그를 반드시 사용해야 하는것은 아님
-
 ## HTML 문자열 태그
 - <h1> ~ <h6> : 제목 태그
 - <p> : 한줄 문자열 태그
@@ -53,12 +50,10 @@
 - <u> : 밑줄 태그
 - <del> : 삭제선 태그
 - <a href="" target="_blank">
-
 ## HTML 목록 태그
 - <ol>, <li> : 순서있는 목록 ( ol : ordered list )
 - <ul>, <li> : 순서없는 목록 ( ul : unordered list )
 - <dl>, <dt>, <dd> : 설명 목록 : 불릿 없음 ( dt : 이름, dd : 값 )
-
 ## HTML 테이블 태그
 - <table> : 테이블 태그
 - <caption> : 테이블 제목
@@ -101,3 +96,6 @@ width : 넓이, height : 높이 )
 - <textarea cols="" rows=""> : 여러줄의 문자열을 입력할수 있는 태그
     - cols : 컬럼수 태그의 너비 설정
     - rows : 행수 태그의 높이 설정
+
+
+
