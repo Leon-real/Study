@@ -14,7 +14,7 @@ html, body {
     color: white;
     font-family: 'd2coding';
 }
-
+/* header */
 header {
     height: 60px;
     background-color: white;
@@ -48,4 +48,40 @@ header>.wrap>ul>li>a {
     color: #6c757d;
     text-decoration: none;
     font-weight: bold;
+}
+
+header>.wrap>ul>li>a.active {
+    color: #343a40;
+    border-bottom: 3px solid #343a40;
+}
+/* footer */
+footer {
+    max-width: 720px;
+    margin: 0 auto;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer>p {
+    margin: 0;
+}
+
+/* main */
+main {
+    height: calc(100% - 120px);
+    max-width: 720px;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+
+main>.wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main>.wrap>p {
+    font-size: 20px;
 }
