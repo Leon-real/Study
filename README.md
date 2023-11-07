@@ -12,8 +12,8 @@ Study computer things
 [7. Computer Vision Deep Learning : 컴퓨터 비전 딥러닝](./07.VisionDeepLearning(CoumputerVision)/)  
 [8. Language Deep Learning : 언어지능 딥러닝](./08.LanguageDeepLearning(NLP)/)  
 [9. Model Evaluation : 모델 해석과 평가](./09.ModelEvaluation/)  
-[10. Etc... : 기타 파일](./10.etc/)
-[11. Web : 웹공부](./11.Web/)
+[10. Etc... : 기타 파일](./10.etc/)  
+[11. Web : 웹공부](./11.Web/)  
 
 ### Project Files  
 [직방 동별 매물정보 수집(크롤링)](./04.WebCrawling/jupyterfile/4.Final_Crawling.ipynb)  
