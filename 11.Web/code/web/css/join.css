@@ -27,6 +27,11 @@
 }
 .input-addr>label {
     float: left;
+    margin-top: 10px;
+}
+
+body > main > section > div > hr:nth-child(8) {
+    margin-top: -10px;
 }
 
 .msg {
