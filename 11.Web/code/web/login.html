@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Web Site Login</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
     <!-- header.header>nav.wrap>ul>li*3 -->
@@ -21,16 +22,18 @@
     <!-- main>section.wrap -->
     <main>
         <section class="wrap">
-            <!-- (div.attr-wrap>label+input)*2 -->
-            <div class="attr-wrap">
-                <label for="email">Email ID</label><br>
-                <input id="email" type="text">
-                <hr>
-            </div>
-            <div class="attr-wrap">
-                <label for="pw">Password</label><br>
-                <input id="pw" type="password">
-                <hr>
+            <div class="login-wrap">
+                <!-- (div.attr-wrap>label+input)*2 -->
+                <div class="attr-wrap">
+                    <label for="email">Email ID</label><br>
+                    <input id="email" type="text">
+                    <hr>
+                </div>
+                <div class="attr-wrap">
+                    <label for="pw">Password</label><br>
+                    <input id="pw" type="password">
+                    <hr>
+                </div><hr>
                 <small class="msg">Test msg</small>
             </div>
             <button id="login-btn" type="button">Login</button>
