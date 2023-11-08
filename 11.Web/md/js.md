@@ -13,14 +13,14 @@
 ## 변수선언
 - 식별자 : 저장공간을 구분하는 문자열
 - 식별자 규칙
-    대소문자, 숫자, _ , $ 사용가능
-    숫자 가장 앞에 사용 X
-    예약어 사용 X
-- 식별자 컨벤션
-    상수 : UPPER_SNAKE_CASE
-    변수 : camelCase
-    함수 : camelCase
-    모듈 : PascalCase
+    대소문자, 숫자, _ , $ 사용가능  
+    숫자 가장 앞에 사용 X  
+    예약어 사용 X  
+- 식별자 컨벤션  
+    상수 : UPPER_SNAKE_CASE  
+    변수 : camelCase  
+    함수 : camelCase  
+    모듈 : PascalCase  
 ```javascript
 // 식별자 1개, 데이터 1개
 var data1 = 10;
