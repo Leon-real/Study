@@ -139,10 +139,10 @@
 - 세션 : 접속정보를 저장하는 연결
 - 윈도우 : 세션이 가지고 있는 여러개의 명령어 입력 환경
 - 팬 : 윈도우가 가지고 있는 여러개의 분할된 화면
-- 세션생성 : $ tmux new -s kt(세션이름)
-- 세션종료 : $ tmux kill-session -t kt(세션이름)
+- 세션생성 : $ tmux new -s SamepleName(세션이름)
+- 세션종료 : $ tmux kill-session -t SamepleName(세션이름)
 - 세션 목록 보기 : $ tmux ls
-- 세션접속 : $ tmux a -t kt(세션이름)
+- 세션접속 : $ tmux a -t SamepleName(세션이름)
 - 윈도우생성 : $ ctrl + b, c
 - 윈도우종료 : $ ctrl + b, &
 - 윈도우이동 : $ ctrl + b, 0-9
@@ -241,7 +241,7 @@ ubuntu $ mongosh
 ```bash
 test> use admin
 switched to db admin
-admin> db.createUser({ user: "kt", pwd: "ktpw", roles: [ "root" ] })
+admin> db.createUser({ user: "SamepleName", pwd: "SamplePw", roles: [ "root" ] })
 { ok: 1 }
 admin> quit
 ```
@@ -265,7 +265,7 @@ ubuntu $ sudo systemctl restart mongod
 - 서버 접속 URI
 ```bash
 URI : mongodb://<user>:<password>@<public ip>:<port>/?authSource=admin
-URI : mongodb://kt:ktpw@54.180.1.46:27017/?authSource=admin
+URI : mongodb://SampleName:SamplePw@54.180.1.46:27017/?authSource=admin
 ```
 ## Nginx
 - nginx 설치
