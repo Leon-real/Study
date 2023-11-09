@@ -181,43 +181,43 @@ ubuntu $ pip install -r ~/env/requirements.txt
 ```
 ## 주피터 노트북 설치 및 설정
 - 주피터 노트북 설정 파일 생성
-```bash
-ubuntu $ jupyter notebook --generate-config
-```
+    ```bash
+    ubuntu $ jupyter notebook --generate-config
+    ```
 - 암호화된 패스워드 생성
-```bash
-ubuntu $ ipython
-```
-```python
-In [1]: from jupyter_server.auth import passwd
-In [2]: passwd()
-Enter password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
-Verify password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
-Out[3]: 'sample_password'
-In [4]: quit
-```
+    ```bash
+    ubuntu $ ipython
+    ```
+    ```python
+    In [1]: from jupyter_server.auth import passwd
+    In [2]: passwd()
+    Enter password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
+    Verify password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
+    Out[3]: 'sample_password'
+    In [4]: quit
+    ```
 - 주피터 노트북 서버 설정
-```bash
-ubuntu $ sudo vi /home/ubuntu/.jupyter/jupyter_notebook_config.py
-```
+    ```bash
+    ubuntu $ sudo vi /home/ubuntu/.jupyter/jupyter_notebook_config.py
+    ```
     - 파일을 연 후, 맨 아래 내려가서 아래와 같이 수정한다.
     - 이때, vi편집기 이므로, `/`를 이용해 글자를 찾거나 맨 아래 내려가면 있다.
     - `i`를 눌러서 편집을 해준 뒤, 
     - `esc`누르기 > `:wq`입력> `Enter` 입력
-```bash
-c.NotebookApp.ip = 'xxx.xx.x.xxx' # private ip address
-c.NotebookApp.open_browser = False # 자동 브라우져 실행 설정
-# 위에서 출력한 패스워드 설정
-c.NotebookApp.password = 'sample_password'
-——————————————————————————————————
-```
+    ```bash
+    c.NotebookApp.ip = 'xxx.xx.x.xxx' # private ip address
+    c.NotebookApp.open_browser = False # 자동 브라우져 실행 설정
+    # 위에서 출력한 패스워드 설정
+    c.NotebookApp.password = 'sample_password'
+    ——————————————————————————————————
+    ```
 - 위 주피터 노트북 서버 설정이 완료 된 후,
 1. 주피터 노트북 실행  
-```bash
-ubuntu $ jupyter notebook
-```
+    ```bash
+    ubuntu $ jupyter notebook
+    ```
 2. 다른 컴퓨터에서 접속하기
-- 인터넷 주소 창에 `Public ip:8888` 입력하여 접속
+    - 인터넷 주소 창에 `Public ip:8888` 입력하여 접속
 ## 주피터 노트북 서버에서 자바스크립트 커널 설정
 - javascript 실행을 위한 패키지 설정
 ```bash
