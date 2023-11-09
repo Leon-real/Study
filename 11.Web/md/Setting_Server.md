@@ -156,16 +156,15 @@
 local $ ssh -i <pem file path> <user name>@<server public ip>
 
 ex)
-local $ ssh -i ~/.ssh/sample.pem ubuntu@54.180.1.46
+local $ ssh -i ~/.ssh/sample.pem ubuntu@xx.xxx.x.xx
 ```
 ## 환경설정 파일전송
-- 구글 드라이브에서 env 디렉토리 다운로드 후 압축해제
+- 구글 드라이브에서 env 디렉토리 다운로드 후 압축해제 [파일들 보기](./env/)
 ```bash
-local $ scp -ri <pem file path> <source file path> <user name>@<public ip>:<destination
-file path>
+local $ scp -ri <pem file path> <source file path> <user name>@<public ip>:<destination file path>
 
 ex)
-local $ scp -ri ~/.ssh/sample.pem ~/Downloads/env ubuntu@54.180.1.46:~/
+local $ scp -ri ~/.ssh/sample.pem ~/Downloads/env ubuntu@xx.xxx.x.xx:~/
 ```
 ## 파이썬 설치
 - 설정에서 선택하는 것이 나오면 모두 기본 값으로 설정 `<tap + enter>`
