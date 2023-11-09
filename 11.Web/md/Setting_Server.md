@@ -1,15 +1,17 @@
 # Setting Server
 ##### 목차
-0. [Bash 기초 명렁어](#bash-기초-명렁어)
-0. [Vim Editor](#vim-editor)
-0. [TMUX(Terminal Multiplexer)](#tmuxterminal-multiplexer)
-1. [서버접속](#서버접속)
-2. [환경설정 파일전송](#환경설정-파일전송)
-3. [파이썬 설치](#파이썬-설치)
-4. [주피터 노트북 설치 및 설정](#주피터-노트북-설치-및-설정)
-5. [주피터 노트북 서버에서 자바스크립트 커널 설정](#주피터-노트북-서버에서-자바스크립트-커널-설정)
-6. [MongoDB 설치](#mongodb-설치)
-7. [Nginx](#nginx)
+- 기초
+    - [Bash 기초 명렁어](#bash-기초-명렁어)
+    - [Vim Editor](#vim-editor)
+    - [TMUX(Terminal Multiplexer)](#tmuxterminal-multiplexer)
+- 파일 설치 및(Python, jupyter, MongoDB, nginx) 서버 설정
+    1. [서버접속](#서버접속)
+    2. [환경설정 파일전송](#환경설정-파일전송)
+    3. [파이썬 설치](#파이썬-설치)
+    4. [주피터 노트북 설치 및 설정](#주피터-노트북-설치-및-설정)
+    5. [주피터 노트북 서버에서 자바스크립트 커널 설정](#주피터-노트북-서버에서-자바스크립트-커널-설정)
+    6. [MongoDB 설치](#mongodb-설치)
+    7. [Nginx](#nginx)
 
 ## Bash 기초 명렁어
 - `ls`
