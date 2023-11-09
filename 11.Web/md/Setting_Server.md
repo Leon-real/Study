@@ -265,7 +265,7 @@ ubuntu $ sudo systemctl restart mongod
 - 서버 접속 URI
 ```bash
 URI : mongodb://<user>:<password>@<public ip>:<port>/?authSource=admin
-URI : mongodb://SampleName:SamplePw@54.180.1.46:27017/?authSource=admin
+URI : mongodb://SampleName:SamplePw@xx.xxx.x.xx:xxxxx/?authSource=admin
 ```
 ## Nginx
 - nginx 설치
