@@ -89,7 +89,7 @@
         - Description : 연결해서 실행
         - Example : mkdir notebooks && cd notebooks
 ## Vim Editor
-## Vim(vi improved) Editor
+### Vim(vi improved) Editor
 - 모든 Linux / Unix 시스템에서 사용할수 있는 문서 편집기
 - 마우스 없이 키보드 입력으로 모든 기능사용 가능
 - CLI(command line interface) 환경 또는 터미널 환경에서 사용
