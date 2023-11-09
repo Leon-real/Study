@@ -47,7 +47,7 @@ ubuntu $ jupyter notebook —generate-config
 ```bash
 ubuntu $ ipython
 ```
-```
+```python
 In [1]: from jupyter_server.auth import passwd
 In [2]: passwd()
 Enter password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
@@ -56,7 +56,7 @@ In [3]: quit
 ```
 - 주피터 노트북 서버 설정
 ```bash
-
+ubuntu $ sudo vi /home/ubuntu/.jupyter/jupyter_notebook_config.py
 ```
 ## 주피터 노트북 서버에서 자바스크립트 커널 설정
 ## MongoDB 설치
