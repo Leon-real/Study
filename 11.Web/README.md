@@ -48,4 +48,4 @@
         - MongoDB 설치
         - Nginx
 ##### 기타 코드 파일
-1. [HTML 코드 파일](./code/web/)  
+1. [HTML, Css, JavaScript 예제](./code/web/)  
