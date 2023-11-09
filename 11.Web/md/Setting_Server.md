@@ -39,6 +39,25 @@ ubuntu $ pyenv global 3.8.5
 ubuntu $ pip install -r ~/env/requirements.txt
 ```
 ## 주피터 노트북 설치 및 설정
+- 주피터 노트북 설정 파일 생성
+```bash
+ubuntu $ jupyter notebook —generate-config
+```
+- 암호화된 패스워드 생성
+```bash
+ubuntu $ ipython
+```
+```
+In [1]: from jupyter_server.auth import passwd
+In [2]: passwd()
+Enter password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
+Verify password: pw # 보안의 이유로 실제로 입력문자가 출력되지는 않음
+In [3]: quit
+```
+- 주피터 노트북 서버 설정
+```bash
+
+```
 ## 주피터 노트북 서버에서 자바스크립트 커널 설정
 ## MongoDB 설치
 ## Nginx
