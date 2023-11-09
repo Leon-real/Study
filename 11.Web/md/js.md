@@ -9,7 +9,7 @@
 5. [반복문](#반복문)
 6. [함수](#함수)
 7. [객체](#객체)
-
+8. [기타 jQuery](#기타-jquery)  
 ## 변수선언
 - 식별자 : 저장공간을 구분하는 문자열
 - 식별자 규칙  
@@ -547,9 +547,9 @@ showLotto(6);
         </script>
 
         ```
-- jQuery
-    - javascript에서 어렵게 사용하는 웹브라우져 객체들을 쉽게 사용할수 있게 만들어주는 자바스크립트 라이브러리
-- https://jquery.com/ (https://jquery.com/)
+## 기타 jQuery
+- javascript에서 어렵게 사용하는 웹브라우져 객체들을 쉽게 사용할수 있게 만들어주는 자바스크립트 라이브러리
+- [https://jquery.com/](https://jquery.com/)
 - 장점
     - 이벤트 핸들링이 편하다.
     - Dom 변경이 편하다.
