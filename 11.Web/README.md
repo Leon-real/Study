@@ -47,5 +47,6 @@
         - 주피터 노트북 서버에서 자바스크립트 커널 설정
         - MongoDB 설치
         - Nginx
+5. [DataBase 데이터베이스 기초](./md/database.md)  
 ##### 기타 코드 파일
 1. [HTML, Css, JavaScript 예제](./code/web/)  
