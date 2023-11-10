@@ -66,3 +66,56 @@ db.user.insert({"name":"alice", "age":"90", "email":"test@sample.com"})
 db.dropDatabase()
 ```
 #### 3-3 Create Collection
+```sql
+# name : collection 이름
+db.createCollection(name, [option])
+```
+- option
+    - capped : true로 설정하면 collection의 최대 용량을 설정
+    - autoIndex : true로 설정하면 _id필드에 index가 자동으로 생성
+    - size : 숫자 데이터를 사용하며 collection의 최대 사이즈를 byte단위로 지정
+    - max : 숫자 데이터를 사용하여 최대 document갯수를 설정
+```sql
+# user 컬렉션을 생성
+db.createCollection('user')
+```
+```sql
+# autoIndex와 max옵션을 설정하여 info 컬렉션을 생성
+db.createCollection("info1", {autoIndexId:true, capped:true, size:500, max:5})
+```
+#### 3-4 Make Document
+```sql
+db.<collection_name>.insert(<document>)
+```
+```sql
+# 한번에 여러개의 document 추가
+# max:5 옵션 제한에 걸려 5개의 데이터가 info1에 들어간다.
+db.info1.insert( [
+    { "subject":"python", "level":3 },
+    { "subject":"web", "level":1 },
+    { "subject":"sql", "level":2 },
+    { "subject":"python", "level":3 },
+    { "subject":"web", "level":1 },
+    { "subject":"sql", "level":2 },
+])
+```
+#### 3-5 Find
+```sql
+db.collection.find(query, projection)
+```
+- query : document 조회 조건을 설정. 모든 document를 조회 할때는 ({})를 사용
+- projection : document를 조회할때 보여지는 필드(컬럼)를 정의
+
+#### 3-6 query
+- [참고 문서](https://www.mongodb.com/docs/v3.6/reference/operator/query/)  
+
+#### 3-7 sort
+- 'sort({key: value})' 와 같은 포멧으로 사용을 하며 key는 정렬할 필드명을 작성하고, value는 오름차순은 1, 내림차순을 -1을 넣어주면 된다..
+```sql
+# info 컬렉션의 document를 level 오름차순으로 정렬
+db.info.find().sort({"level":1})
+# info 컬렉션의 document를 level 내림차순으로 정렬
+db.info.find().sort({"level":-1})
+# level을 기준으로 내림차순으로 정렬한 후 subject를 기준으로 오름차순으로 정렬
+db.info.find().sort({"level":-1, "subject":1})
+```
