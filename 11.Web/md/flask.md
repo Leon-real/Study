@@ -4,7 +4,7 @@
 - [Flask 공식문서](https://flask-docs-kr.readthedocs.io/ko/latest/quickstart.html)  
 
 ## 간단하게 시작하기
-- Jupyter notebook 환경에서 실행  
+- `Jupyter notebook 환경`에서 실행  
 1. Make Project
 ```python
 !mkdir -p hello/static
@@ -22,13 +22,30 @@ from flask import *
 # __name__ == __main__ : 시작점을 의미
 app = Flask(__name__)
 
-@app.route('/') # 기본 경로 접속시
+@app.route('/') # 기본 경로 접속시("기본 도메인" 접속시)
 def hello():
     return "Hello Flask" 
 
-@app.route('/user')
-def user():
-    return render_template('index.html')
+# @app.route('/user') # "기본 도메인/user" 접속시
+# def user():
+#     return render_template('index.html', name=New)
+
+# rest api
+@app.route('/user/<username>') # "기본 도메인/user/username" 접속시
+def user(username):
+    return render_template('index.html', name=username)
+
+
+@app.route('/api/data') # "기본 도메인/api/data" 접속시
+def api_data():
+    # 데이터 보내기 
+    # 예시
+    # "기본 도메인/api/data?name=kim
+    request_data = request.args.to_dict() # 데이터 받기
+    print(request_data, request_data['name'])
+    
+    data = {'peter' : 20, 'kim' : [1,2]}
+    return jsonify(data)
 
 # debug=True : 서버 실행중 코드가 변경되면 바로 적용
 app.run(debug=True)
@@ -42,6 +59,7 @@ app.run(debug=True)
         <title>Document</title>
     </head>
         <body>
+            <h1>Hello {{name}}</h1>
             <input id='txt-data', type='text'>
             <button id='get-data'>GetData</button>
             <div class='result'></div>
