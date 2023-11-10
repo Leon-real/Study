@@ -19,13 +19,37 @@
 %%writefile hello/hello.py
 from flask import *
 
-app = False(__name__)
+# __name__ == __main__ : 시작점을 의미
+app = Flask(__name__)
 
-@app.rount('/') # 기본 경로 접속시
+@app.route('/') # 기본 경로 접속시
 def hello():
     return "Hello Flask" 
+
+@app.route('/user')
+def user():
+    return render_template('index.html')
 
 # debug=True : 서버 실행중 코드가 변경되면 바로 적용
 app.run(debug=True)
 ```
 3. Templates
+```python
+%%writefile hello/templates/index.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+        <body>
+            <input id='txt-data', type='text'>
+            <button id='get-data'>GetData</button>
+            <div class='result'></div>
+        </body>
+</html>
+```
+4. Flask 실행 및 확인
+- 위에서 만들어 놓은 hello.py를 실행한다.
+```bash
+python hello.py
+```
